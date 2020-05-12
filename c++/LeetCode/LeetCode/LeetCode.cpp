@@ -2,7 +2,7 @@
 //
 
 #include <iostream>
-#include "LengthOfLongestSubstring.cpp"
+#include "LengthOfLongestSubstring.h"
 
 using namespace std;
 

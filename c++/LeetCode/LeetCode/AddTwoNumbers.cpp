@@ -1,6 +1,4 @@
-﻿#include <cstddef>
-
-using namespace std;
+﻿#include "AddTwoNumbers.h"
 
 /*
     题目描述：
@@ -25,12 +23,6 @@ using namespace std;
         4. new/delete与malloc/free的区别
         5. 变量作用域，new、static等原理
 */
-struct ListNode {
-    int val;
-    ListNode* next;
-    ListNode(int x) : val(x), next(NULL) {}
-};
-
 ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
     ListNode* p, * p1, * p2;
     int adv = 0;
