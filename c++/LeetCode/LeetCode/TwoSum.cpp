@@ -21,6 +21,8 @@ using namespace std;
         1. 引用作为函数参数传入
         2. 快排实现
 */
+void quickSort(vector<int>& nums, vector<int>& sourceIdx, int start, int end);
+
 vector<int> twoSum(vector<int>& nums, int target) {
     //给nums排序并记录排序后的原始下标顺序
     vector<int> sourceIdx;

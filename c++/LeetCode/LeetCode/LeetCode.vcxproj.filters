@@ -13,10 +13,28 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\Array">
+      <UniqueIdentifier>{78c049bb-763e-434a-af3d-11ccb2e0f1a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\List">
+      <UniqueIdentifier>{9ea9aaa6-75b2-47d6-bba0-8e416848500c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\string">
+      <UniqueIdentifier>{039db186-3052-40a1-8d65-8dd62123b40e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LeetCode.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoSum.cpp">
+      <Filter>源文件\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="AddTwoNumbers.cpp">
+      <Filter>源文件\List</Filter>
+    </ClCompile>
+    <ClCompile Include="LengthOfLongestSubstring.cpp">
+      <Filter>源文件\string</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

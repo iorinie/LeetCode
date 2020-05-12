@@ -1,0 +1,6 @@
+﻿  LeetCode.cpp
+  LengthOfLongestSubstring.cpp
+  TwoSum.cpp
+  正在生成代码...
+LengthOfLongestSubstring.obj : error LNK2005: "int __cdecl lengthOfLongestSubstring(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?lengthOfLongestSubstring@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 已经在 LeetCode.obj 中定义
+D:\Work\github\LeetCode\c++\LeetCode\Debug\LeetCode.exe : fatal error LNK1169: 找到一个或多个多重定义的符号

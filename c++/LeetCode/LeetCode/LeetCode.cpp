@@ -2,10 +2,15 @@
 //
 
 #include <iostream>
+#include "LengthOfLongestSubstring.cpp"
+
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    string s = "abcabcbb";
+    int max = lengthOfLongestSubstring(s);
+    cout << max << endl;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
