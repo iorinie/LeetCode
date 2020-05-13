@@ -8,7 +8,11 @@ using namespace std;
 
 int main()
 {
-    string s = "abcabcbb";
+    string s = "abcabcb";
+    //s = "bbbbb";
+    //s = "pwwkew";
+    //s = " ";
+    //s = "bbtablud";
     int max = lengthOfLongestSubstring(s);
     cout << max << endl;
 }

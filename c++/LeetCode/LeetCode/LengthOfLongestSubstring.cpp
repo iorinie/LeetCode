@@ -21,11 +21,11 @@
 */
 
 /*
-    解法1：
+    解法1：使用两个指针维持一个滑动窗口，保持窗口中的子串没有重复字符，记录窗口中子串的最大长度
     知识点：
-        1. 
-        2. 
-        3. 
+        1. string.size()返回的类型不是int
+        2. 使用多个指针解题时，需要明确每个指针的作用范围
+        3. 嵌套循环的内层循环里对外层变量自增时，需要关注内层自增会不会导致越界
 */
 int lengthOfLongestSubstring(string s) {
     int max = 0;
@@ -33,15 +33,27 @@ int lengthOfLongestSubstring(string s) {
     int left = 0, right = 0; //左右指针，右指针用于添加字符到window，左指针用于将重复的字符从window中删掉
     while (right < int(s.size())) {
         char rC = s[right];
-        while (window.find(rC) == -1) {
+        int repeatIdx = window.find(rC);
+        while (repeatIdx == -1) {
             window.push_back(rC);
             //max = right - left > max ? right - left : max;
             max = int(window.size()) > max ? window.size() : max;
             right++;
+            if (right >= int(s.size())) {
+                break;
+            }
             rC = s[right];
+            repeatIdx = window.find(rC);
         }
-        window.erase(0, 1);
-        left++;
+        if (right >= int(s.size())) {
+            break;
+        }
+        window.push_back(rC);
+        while (left <= repeatIdx) {
+            window.erase(0, 1);
+            left++;
+        }
+        left = 0;
         right++;
     }
 
