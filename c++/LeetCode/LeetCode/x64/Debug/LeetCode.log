@@ -1,0 +1,3 @@
+﻿  LevelOrder.cpp
+F:\Game Development\github\LeetCode\c++\LeetCode\LeetCode\LevelOrder.cpp(59,29): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  LeetCode.vcxproj -> F:\Game Development\github\LeetCode\c++\LeetCode\x64\Debug\LeetCode.exe

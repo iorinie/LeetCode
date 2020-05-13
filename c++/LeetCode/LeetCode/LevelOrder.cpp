@@ -43,28 +43,20 @@ vector<vector<int>> levelOrder(TreeNode* root) {
     pushCount++;
     while (!q.empty()) {
         vector<int> tempR;
-        TreeNode* l = NULL, * r = NULL;
         while (pushCount > 0) {
             tn = q.front();
             q.pop();
             tempR.push_back(tn->val);
             if (tn->left) {
-                l = tn->left;
+                q.push(tn->left);
             }
             if (tn->right) {
-                r = tn->right;
+                q.push(tn->right);
             }
             pushCount--;
         }
         rslt.push_back(tempR);
-        if (l) {
-            q.push(l);
-            pushCount++;
-        }
-        if (r) {
-            q.push(r);
-            pushCount++;
-        }
+        pushCount = q.size();
     }
 
     return rslt;
