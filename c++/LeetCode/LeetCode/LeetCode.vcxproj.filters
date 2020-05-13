@@ -19,8 +19,14 @@
     <Filter Include="源文件\List">
       <UniqueIdentifier>{9ea9aaa6-75b2-47d6-bba0-8e416848500c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\string">
+    <Filter Include="源文件\String">
       <UniqueIdentifier>{039db186-3052-40a1-8d65-8dd62123b40e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Tree">
+      <UniqueIdentifier>{4f741f2a-2e1b-4227-90d2-07e49c20696b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Tree">
+      <UniqueIdentifier>{ffe5b931-d4d3-4206-bd28-90c3e37482ba}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -34,7 +40,15 @@
       <Filter>源文件\List</Filter>
     </ClCompile>
     <ClCompile Include="LengthOfLongestSubstring.cpp">
-      <Filter>源文件\string</Filter>
+      <Filter>源文件\String</Filter>
     </ClCompile>
+    <ClCompile Include="LevelOrder.cpp">
+      <Filter>源文件\Tree</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LevelOrder.h">
+      <Filter>头文件\Tree</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
