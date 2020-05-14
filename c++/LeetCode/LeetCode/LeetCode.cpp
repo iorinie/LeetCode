@@ -2,20 +2,16 @@
 //
 
 #include <iostream>
-#include "SingleNumber.h"
+#include "ReadBinaryWatch.h"
 
 using namespace std;
 
 int main()
 {
-    vector<int> a;
-    a.push_back(4);
-    a.push_back(1);
-    a.push_back(2);
-    a.push_back(1);
-    a.push_back(2);
-    int r = singleNumber(a);
-    cout << r << endl;
+    vector<string> vs = readBinaryWatch(1);
+    for (int i = 0; i < vs.size(); i++) {
+        cout << vs[i] << endl;
+    }
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

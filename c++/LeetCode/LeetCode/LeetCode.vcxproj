@@ -151,11 +151,13 @@
     <ClCompile Include="LeetCode.cpp" />
     <ClCompile Include="LengthOfLongestSubstring.cpp" />
     <ClCompile Include="LevelOrder.cpp" />
+    <ClCompile Include="ReadBinaryWatch.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="TwoSum.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h" />
+    <ClInclude Include="ReadBinaryWatch.h" />
     <ClInclude Include="SingleNumber.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

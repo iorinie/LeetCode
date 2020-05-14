@@ -31,6 +31,12 @@
     <Filter Include="头文件\Array">
       <UniqueIdentifier>{5a3b376c-f89f-4586-9a86-35adaf68c6f4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Backtracking">
+      <UniqueIdentifier>{d3bc652c-0387-4f79-acd5-22a4bb7fbd3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Backtracking">
+      <UniqueIdentifier>{8be20406-4189-4e06-a7a5-abd16e53bf67}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LeetCode.cpp">
@@ -51,6 +57,9 @@
     <ClCompile Include="SingleNumber.cpp">
       <Filter>源文件\Array</Filter>
     </ClCompile>
+    <ClCompile Include="ReadBinaryWatch.cpp">
+      <Filter>源文件\Backtracking</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -58,6 +67,9 @@
     </ClInclude>
     <ClInclude Include="SingleNumber.h">
       <Filter>头文件\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadBinaryWatch.h">
+      <Filter>头文件\Backtracking</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
