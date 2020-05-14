@@ -2,28 +2,20 @@
 //
 
 #include <iostream>
-#include "LevelOrder.h"
+#include "SingleNumber.h"
 
 using namespace std;
 
 int main()
 {
-    TreeNode* r = new TreeNode(3);
-    TreeNode* r1 = new TreeNode(9), * r2 = new TreeNode(20);
-    r->left = r1;
-    r->right = r2;
-    TreeNode* r21 = new TreeNode(15), * r22 = new TreeNode(7);
-    r->right->left = r21;
-    r->right->right = r22;
-    vector<vector<int>> v = levelOrder(r);
-    for (int i = 0; i < int(v.size()); i++) {
-        vector<int> tempV = v[i];
-        for (int j = 0; j < int(tempV.size()); j++) {
-            cout << tempV[j] << ",";
-        }
-        cout << endl;
-    }
-
+    vector<int> a;
+    a.push_back(4);
+    a.push_back(1);
+    a.push_back(2);
+    a.push_back(1);
+    a.push_back(2);
+    int r = singleNumber(a);
+    cout << r << endl;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

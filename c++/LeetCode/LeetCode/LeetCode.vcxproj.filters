@@ -28,6 +28,9 @@
     <Filter Include="源文件\Tree">
       <UniqueIdentifier>{ffe5b931-d4d3-4206-bd28-90c3e37482ba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Array">
+      <UniqueIdentifier>{5a3b376c-f89f-4586-9a86-35adaf68c6f4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LeetCode.cpp">
@@ -45,10 +48,16 @@
     <ClCompile Include="LevelOrder.cpp">
       <Filter>源文件\Tree</Filter>
     </ClCompile>
+    <ClCompile Include="SingleNumber.cpp">
+      <Filter>源文件\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
       <Filter>头文件\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleNumber.h">
+      <Filter>头文件\Array</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

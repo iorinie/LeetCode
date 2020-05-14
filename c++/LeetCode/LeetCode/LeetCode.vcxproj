@@ -151,10 +151,12 @@
     <ClCompile Include="LeetCode.cpp" />
     <ClCompile Include="LengthOfLongestSubstring.cpp" />
     <ClCompile Include="LevelOrder.cpp" />
+    <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="TwoSum.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h" />
+    <ClInclude Include="SingleNumber.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

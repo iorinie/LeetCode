@@ -21,13 +21,11 @@
 */
 
 /*
-    解法1：广度优先搜索
-    缺点：
+    解法1：使用队列的广度优先搜索
+    缺点：其实不需要维护pushCount，本质上它就是队列的长度，第二层while使用for就行了，只要能保证每次内层循环能够把同层的所有节点从队列中取出就行
 
     知识点：
-        1. 
-        2. 
-        3. 
+        1. 有返回值的函数，如果直接不携带数据return，调用方是不会初始化返回的
 */
 vector<vector<int>> levelOrder(TreeNode* root) {
     vector<vector<int>> rslt;
