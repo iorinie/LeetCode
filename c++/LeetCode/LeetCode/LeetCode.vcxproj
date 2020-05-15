@@ -152,6 +152,7 @@
     <ClCompile Include="LengthOfLongestSubstring.cpp" />
     <ClCompile Include="LevelOrder.cpp" />
     <ClCompile Include="MaxProfit.cpp" />
+    <ClCompile Include="MaxSubArray.cpp" />
     <ClCompile Include="ReadBinaryWatch.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="TwoSum.cpp" />
@@ -161,6 +162,7 @@
     <ClInclude Include="LengthOfLongestSubstring.h" />
     <ClInclude Include="LevelOrder.h" />
     <ClInclude Include="MaxProfit.h" />
+    <ClInclude Include="MaxSubArray.h" />
     <ClInclude Include="ReadBinaryWatch.h" />
     <ClInclude Include="SingleNumber.h" />
     <ClInclude Include="TwoSum.h" />
