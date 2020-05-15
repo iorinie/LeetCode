@@ -9,12 +9,8 @@ using namespace std;
 
 vector<string> readBinaryWatch(int num);
 
-void lightUpOne(vector<int>& watch, int idx, int target, vector<string>& rslt);
+void backtrack(vector<int>& path, vector<int>& leds, int start, int num, vector<string>& rslt);
 
-void turnOffOne(vector<int>& watch, int idx, int target, vector<string>& rslt);
-
-int lightedCnt(vector<int>& watch);
-
-string buildTime(int hour, int minute);
+string buildTime(vector<int>& path);
 
 #endif

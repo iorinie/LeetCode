@@ -1,4 +1,5 @@
 ﻿#include "ReadBinaryWatch.h"
+#include <math.h>
 
 /*
     题目描述：
@@ -21,11 +22,9 @@
 
 /*
     解法1：回溯
-    缺点：
+    缺点：有许多明显不合法的组合，可以提前返回
     知识点：
-        1. 
-        2. 
-        3. 
+        1. 回溯算法框架，主要是路径和选择列表，顺序遍历选择列表的元素添加到路径，递归，返回时撤销选择，另外注意结束条件
 */
 vector<string> readBinaryWatch(int num) {
     vector<string> rslt;
@@ -33,40 +32,52 @@ vector<string> readBinaryWatch(int num) {
         rslt.push_back("0:00");
         return rslt;
     }
-    vector<int> watch; //记录手表亮点情况，下标0~9代表从下往上、从右往左的LED，对应的值1为亮，0为不亮，
+    if (num >= 10) { //应该不止10以上是非法的，9也是
+        return rslt;
+    }
+    vector<int> leds; //选择列表，0~9，代表目前可供选择的LED
     for (int i = 0; i < 10; i++) {
-        watch.push_back(0);
+        leds.push_back(i);
     }
-    for (int i = 0; i < num; i++) {
-        lightUpOne(watch, i, num, rslt);
-        turnOffOne(watch, i, num, rslt);
-    }
+    vector<int> path; //路径，代表已经选择的LED
+    backtrack(path, leds, 0, num, rslt);
 
     return rslt;
 }
 
-void lightUpOne(vector<int>& watch, int idx, int target, vector<string>& rslt) {
-    if (lightedCnt(watch) == target) {
+void backtrack(vector<int>& path, vector<int>& leds, int start, int num, vector<string>& rslt) {
+    if (path.size() == num) {
+        string s = buildTime(path);
+        if (s != "") {
+            rslt.push_back(s);
+        }
+        return;
+    }
 
+    for (int i = start; i < leds.size(); i++) {
+        path.push_back(leds[i]);
+        backtrack(path, leds, i + 1, num, rslt);
+        path.pop_back();
     }
 }
 
-void turnOffOne(vector<int>& watch, int idx, int target, vector<string>& rslt) {
 
-}
-
-//手表有几个LED亮了
-int lightedCnt(vector<int>& watch) {
-    int cnt = 0;
-    for (int i = 0; i < watch.size(); i++) {
-        if (watch[i] == 1) {
-            cnt++;
+string buildTime(vector<int>& path) {
+    int hour = 0;
+    int minute = 0;
+    for (int i = 0; i < path.size(); i++) {
+        int back = path[i];
+        //6~9属于小时，0~5属于分钟
+        if (back >= 6 && back <= 9) {
+            hour += pow(2, back - 6);
+        }
+        else {
+            minute += pow(2, back);
         }
     }
-    return cnt;
-}
-
-string buildTime(int hour, int minute) {
+    if (hour > 11 || minute > 59) {
+        return "";
+    }
     string hStr = to_string(hour);
     string mStr = to_string(minute);
     string hmStr = minute / 10 > 0 ? hStr + ":" + mStr : hStr + ":" + "0" + mStr;
