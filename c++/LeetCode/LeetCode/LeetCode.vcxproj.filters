@@ -37,6 +37,18 @@
     <Filter Include="头文件\Backtracking">
       <UniqueIdentifier>{8be20406-4189-4e06-a7a5-abd16e53bf67}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\List">
+      <UniqueIdentifier>{0ff31e25-69b0-4905-bbf4-5de6048e7c04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\String">
+      <UniqueIdentifier>{a05370c3-706e-44f1-9b3e-bedb9e70cdf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DynamicPlanning">
+      <UniqueIdentifier>{22fb7a0f-aa7a-4e0e-9b29-4ed0ba3f0951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DynamicPlanning">
+      <UniqueIdentifier>{51fff7b2-cf57-4513-808d-d403aadc6f49}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LeetCode.cpp">
@@ -60,6 +72,9 @@
     <ClCompile Include="ReadBinaryWatch.cpp">
       <Filter>源文件\Backtracking</Filter>
     </ClCompile>
+    <ClCompile Include="MaxProfit.cpp">
+      <Filter>源文件\DynamicPlanning</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -70,6 +85,18 @@
     </ClInclude>
     <ClInclude Include="ReadBinaryWatch.h">
       <Filter>头文件\Backtracking</Filter>
+    </ClInclude>
+    <ClInclude Include="AddTwoNumbers.h">
+      <Filter>头文件\List</Filter>
+    </ClInclude>
+    <ClInclude Include="LengthOfLongestSubstring.h">
+      <Filter>头文件\String</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoSum.h">
+      <Filter>头文件\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxProfit.h">
+      <Filter>头文件\DynamicPlanning</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

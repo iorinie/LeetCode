@@ -2,16 +2,27 @@
 //
 
 #include <iostream>
-#include "ReadBinaryWatch.h"
+#include "MaxProfit.h"
 
 using namespace std;
 
 int main()
 {
-    vector<string> vs = readBinaryWatch(1);
-    for (int i = 0; i < vs.size(); i++) {
-        cout << vs[i] << endl;
-    }
+    vector<int> stockPrices;
+    /*stockPrices.push_back(7);
+    stockPrices.push_back(1);
+    stockPrices.push_back(5);
+    stockPrices.push_back(3);
+    stockPrices.push_back(6);
+    stockPrices.push_back(4);*/
+    stockPrices.push_back(7);
+    stockPrices.push_back(6);
+    stockPrices.push_back(4);
+    stockPrices.push_back(3);
+    stockPrices.push_back(1);
+    cout << maxProfit(stockPrices) << endl;
+
+    
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
