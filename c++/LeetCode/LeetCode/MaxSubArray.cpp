@@ -14,25 +14,28 @@
 */
 
 /*
-    解法1：动态规划，max = {当前i值，前面i-1的max值，更新max值起到当前值前累加的正值+当前i值}
-    难点：
+    解法1：动态规划，dp[i]表示以nums[i]结尾的最大和（这个最大和的概念，要结合代码细品），则dp数组中的最大值即为题解。
+    难点：一开始只考虑到nums[i - 1]的正负，因此dp转移方式非常复杂，完全没想到直接判断dp[i - 1]的正负就行了。
     知识点：
-        1. 
-        2. 
+        1. 两个for循环的循环次数是一样的，可以精简为一个for。例如MaxProfit.cpp中的处理。
+        2. 注意！！！！访问未定义的vector下标，越界报错！！！！
 */
 int maxSubArray(vector<int>& nums) {
-    int max = nums[0];
-    if (nums.size() == 1) {
-        return max;
-    }
-    int tempPositive = 0; //更新max值起到当前值前累加的正值
+    vector<int> dp;
+    dp.push_back(nums[0]);
     for (int i = 1; i < nums.size(); i++) {
-        max = maxOfThree(nums[i], max, tempPositive + nums[i]);
+        if (dp[i - 1] <= 0) {
+            dp.push_back(nums[i]);
+        }
+        else {
+            dp.push_back(dp[i - 1] + nums[i]);
+        }
+    }
+
+    int max = dp[0];
+    for (int i = 1; i < dp.size(); i++) {
+        max = max >= dp[i] ? max : dp[i];
     }
 
     return max;
-}
-
-int maxOfThree(int a, int b, int c) {
-
 }

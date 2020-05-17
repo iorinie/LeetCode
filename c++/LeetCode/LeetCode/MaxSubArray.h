@@ -8,6 +8,4 @@ using namespace std;
 
 int maxSubArray(vector<int>& nums);
 
-int maxOfThree(int a, int b, int c);
-
 #endif

@@ -1,4 +1,2 @@
-﻿  ReadBinaryWatch.cpp
-F:\Game Development\github\LeetCode\c++\LeetCode\LeetCode\ReadBinaryWatch.cpp(74,39): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
-F:\Game Development\github\LeetCode\c++\LeetCode\LeetCode\ReadBinaryWatch.cpp(77,35): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+﻿  MaxSubArray.cpp
   LeetCode.vcxproj -> F:\Game Development\github\LeetCode\c++\LeetCode\x64\Debug\LeetCode.exe
