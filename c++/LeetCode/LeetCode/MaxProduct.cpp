@@ -5,7 +5,7 @@
         给你一个整数数组 nums ，请你找出数组中乘积最大的连续子数组（该子数组中至少包含一个数字），并返回该子数组所对应的乘积。
 
     示例：
-        输入: [2,3,-2,4]
+        输入: [2,3,-2,4] [-2, -3, -2] [-2, 3, -2] [2, -3, -2] ziji 6 12 12 [2, 3, 2] [-2, -3, 2] [-2, 3, 2] [2, -3, 2] 12 12 6 ziji
         输出: 6
         解释: 子数组 [2,3] 有最大乘积 6。
 
@@ -18,29 +18,16 @@
 */
 
 /*
-    解法1：动态规划，dp[i]表示以nums[i]结尾的最大乘积
+    解法1：动态规划，严格来说不算动态规划？
     难点：
     知识点：
         1. 
 */
 int maxProduct(vector<int>& nums) {
     vector<int> dp;
-    vector<int> dp_;
     dp.push_back(nums[0]);
-    dp_.push_back(nums[0]);
     for (int i = 1; i < nums.size(); i++) {
-        if (dp_[i - 1] * nums[i] < 0) {
-            dp.push_back(nums[i]);
-        }
-        else {
-            dp.push_back(dp_[i - 1] * nums[i]);
-        }
-        if (dp_[i - 1] * nums[i] != 0) {
-            dp_.push_back(dp_[i - 1] * nums[i]);
-        }
-        else {
-            dp_.push_back(nums[i]);
-        }
+        
     }
 
     int max = dp[0];
