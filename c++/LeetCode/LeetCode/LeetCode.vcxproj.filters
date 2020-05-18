@@ -81,6 +81,9 @@
     <ClCompile Include="LengthOfLIS.cpp">
       <Filter>源文件\DynamicPlanning</Filter>
     </ClCompile>
+    <ClCompile Include="MaxProduct.cpp">
+      <Filter>源文件\DynamicPlanning</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -108,6 +111,9 @@
       <Filter>头文件\DynamicPlanning</Filter>
     </ClInclude>
     <ClInclude Include="LengthOfLIS.h">
+      <Filter>头文件\DynamicPlanning</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxProduct.h">
       <Filter>头文件\DynamicPlanning</Filter>
     </ClInclude>
   </ItemGroup>
