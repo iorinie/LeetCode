@@ -3,7 +3,7 @@
 
 #include <iostream>
 //#include "MaxProduct.h"
-#include "ValidPalindrome.h"
+#include "RemoveNthFormEnd.h"
 
 using namespace std;
 
@@ -22,9 +22,18 @@ int main()
     //arr.push_back(-4);
     //cout << maxProduct(arr) << endl;
 
-    string s = "cuppucu";
-    cout << validPalindrome(s) << endl;
-    
+    ListNode* head = new ListNode(1);
+    ListNode* p = head;
+    for (int i = 0; i < 4; i++) {
+        ListNode* tempNode = new ListNode(i + 2);
+        p->next = tempNode;
+        p = p->next;
+    }
+    ListNode* h = removeNthFromEnd(head, 1);
+    while (h) {
+        cout << h->val << endl;
+        h = h->next;
+    }
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

@@ -87,6 +87,9 @@
     <ClCompile Include="ValidPalindrome.cpp">
       <Filter>源文件\String</Filter>
     </ClCompile>
+    <ClCompile Include="RemoveNthFromEnd.cpp">
+      <Filter>源文件\List</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -121,6 +124,9 @@
     </ClInclude>
     <ClInclude Include="ValidPalindrome.h">
       <Filter>头文件\String</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveNthFormEnd.h">
+      <Filter>头文件\List</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
