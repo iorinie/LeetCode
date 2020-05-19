@@ -158,6 +158,7 @@
     <ClCompile Include="ReadBinaryWatch.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="TwoSum.cpp" />
+    <ClCompile Include="ValidPalindrome.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AddTwoNumbers.h" />
@@ -170,6 +171,7 @@
     <ClInclude Include="ReadBinaryWatch.h" />
     <ClInclude Include="SingleNumber.h" />
     <ClInclude Include="TwoSum.h" />
+    <ClInclude Include="ValidPalindrome.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

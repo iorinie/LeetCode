@@ -84,6 +84,9 @@
     <ClCompile Include="MaxProduct.cpp">
       <Filter>源文件\DynamicPlanning</Filter>
     </ClCompile>
+    <ClCompile Include="ValidPalindrome.cpp">
+      <Filter>源文件\String</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -115,6 +118,9 @@
     </ClInclude>
     <ClInclude Include="MaxProduct.h">
       <Filter>头文件\DynamicPlanning</Filter>
+    </ClInclude>
+    <ClInclude Include="ValidPalindrome.h">
+      <Filter>头文件\String</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
