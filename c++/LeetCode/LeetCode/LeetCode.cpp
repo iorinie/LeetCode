@@ -3,7 +3,7 @@
 
 #include <iostream>
 //#include "MaxProduct.h"
-#include "RemoveNthFormEnd.h"
+#include "InorderTraversal.h"
 
 using namespace std;
 
@@ -22,17 +22,15 @@ int main()
     //arr.push_back(-4);
     //cout << maxProduct(arr) << endl;
 
-    ListNode* head = new ListNode(1);
-    ListNode* p = head;
-    for (int i = 0; i < 4; i++) {
-        ListNode* tempNode = new ListNode(i + 2);
-        p->next = tempNode;
-        p = p->next;
-    }
-    ListNode* h = removeNthFromEnd(head, 1);
-    while (h) {
-        cout << h->val << endl;
-        h = h->next;
+    TreeNode* root = new TreeNode(1);
+    TreeNode* rightSon = new TreeNode(2);
+    TreeNode* sonLeft = new TreeNode(3);
+    rightSon->left = sonLeft;
+    root->right = rightSon;
+    //TreeNode* root = NULL;
+    vector<int> v = inorderTraversal(root);
+    for (int i = 0; i < v.size(); i++) {
+        cout << v[i] << endl;
     }
 }
 

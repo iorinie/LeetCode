@@ -148,6 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AddTwoNumbers.cpp" />
+    <ClCompile Include="InorderTraversal.cpp" />
     <ClCompile Include="LeetCode.cpp" />
     <ClCompile Include="LengthOfLIS.cpp" />
     <ClCompile Include="LengthOfLongestSubstring.cpp" />
@@ -163,6 +164,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AddTwoNumbers.h" />
+    <ClInclude Include="InorderTraversal.h" />
     <ClInclude Include="LengthOfLIS.h" />
     <ClInclude Include="LengthOfLongestSubstring.h" />
     <ClInclude Include="LevelOrder.h" />

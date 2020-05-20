@@ -90,6 +90,9 @@
     <ClCompile Include="RemoveNthFromEnd.cpp">
       <Filter>源文件\List</Filter>
     </ClCompile>
+    <ClCompile Include="InorderTraversal.cpp">
+      <Filter>源文件\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -127,6 +130,9 @@
     </ClInclude>
     <ClInclude Include="RemoveNthFormEnd.h">
       <Filter>头文件\List</Filter>
+    </ClInclude>
+    <ClInclude Include="InorderTraversal.h">
+      <Filter>头文件\Tree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
