@@ -152,6 +152,7 @@
     <ClCompile Include="LeetCode.cpp" />
     <ClCompile Include="LengthOfLIS.cpp" />
     <ClCompile Include="LengthOfLongestSubstring.cpp" />
+    <ClCompile Include="LetterCasePermutation.cpp" />
     <ClCompile Include="LevelOrder.cpp" />
     <ClCompile Include="MaxProduct.cpp" />
     <ClCompile Include="MaxProfit.cpp" />
@@ -168,6 +169,7 @@
     <ClInclude Include="InorderTraversal.h" />
     <ClInclude Include="LengthOfLIS.h" />
     <ClInclude Include="LengthOfLongestSubstring.h" />
+    <ClInclude Include="LetterCasePermutation.h" />
     <ClInclude Include="LevelOrder.h" />
     <ClInclude Include="MaxProduct.h" />
     <ClInclude Include="MaxProfit.h" />

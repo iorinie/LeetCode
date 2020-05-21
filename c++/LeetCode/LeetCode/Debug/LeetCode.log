@@ -1,3 +1,5 @@
 ﻿  LeetCode.cpp
-D:\Work\github\LeetCode\c++\LeetCode\LeetCode\LeetCode.cpp(32,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\LeetCode.cpp(30,23): warning C4018: “<”: 有符号/无符号不匹配
+  LetterCasePermutation.cpp
+  正在生成代码...
   LeetCode.vcxproj -> D:\Work\github\LeetCode\c++\LeetCode\Debug\LeetCode.exe

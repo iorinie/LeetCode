@@ -3,7 +3,7 @@
 
 #include <iostream>
 //#include "MaxProduct.h"
-#include "PreorderTraversal.h"
+#include "LetterCasePermutation.h"
 
 using namespace std;
 
@@ -22,18 +22,16 @@ int main()
     //arr.push_back(-4);
     //cout << maxProduct(arr) << endl;
 
-    TreeNode* root = new TreeNode(1);
-    TreeNode* rightSon = new TreeNode(2);
-    TreeNode* sonLeft = new TreeNode(3);
-    rightSon->left = sonLeft;
-    root->right = rightSon;
-    //TreeNode* root = NULL;
-    vector<int> v = preorderTraversal(root);
-    for (int i = 0; i < v.size(); i++) {
-        cout << v[i] << endl;
+    string s = "a1b2";
+    //s = "3z4";
+    //s = "12345";
+    s = "C";
+    vector<string> vs = letterCasePermutation(s);
+    for (int i = 0; i < vs.size(); i++) {
+        cout << vs[i] << endl;
     }
 
-    //return 0;
+    return 0;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
