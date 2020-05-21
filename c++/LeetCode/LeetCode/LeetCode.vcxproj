@@ -156,6 +156,7 @@
     <ClCompile Include="MaxProduct.cpp" />
     <ClCompile Include="MaxProfit.cpp" />
     <ClCompile Include="MaxSubArray.cpp" />
+    <ClCompile Include="PreorderTraversal.cpp" />
     <ClCompile Include="ReadBinaryWatch.cpp" />
     <ClCompile Include="RemoveNthFromEnd.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
@@ -171,6 +172,7 @@
     <ClInclude Include="MaxProduct.h" />
     <ClInclude Include="MaxProfit.h" />
     <ClInclude Include="MaxSubArray.h" />
+    <ClInclude Include="PreorderTraversal.h" />
     <ClInclude Include="ReadBinaryWatch.h" />
     <ClInclude Include="RemoveNthFormEnd.h" />
     <ClInclude Include="SingleNumber.h" />

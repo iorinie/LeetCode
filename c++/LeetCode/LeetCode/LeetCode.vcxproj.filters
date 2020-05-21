@@ -93,6 +93,9 @@
     <ClCompile Include="InorderTraversal.cpp">
       <Filter>源文件\Tree</Filter>
     </ClCompile>
+    <ClCompile Include="PreorderTraversal.cpp">
+      <Filter>源文件\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -132,6 +135,9 @@
       <Filter>头文件\List</Filter>
     </ClInclude>
     <ClInclude Include="InorderTraversal.h">
+      <Filter>头文件\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="PreorderTraversal.h">
       <Filter>头文件\Tree</Filter>
     </ClInclude>
   </ItemGroup>

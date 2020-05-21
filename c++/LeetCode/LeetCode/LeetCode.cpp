@@ -3,7 +3,7 @@
 
 #include <iostream>
 //#include "MaxProduct.h"
-#include "InorderTraversal.h"
+#include "PreorderTraversal.h"
 
 using namespace std;
 
@@ -28,10 +28,12 @@ int main()
     rightSon->left = sonLeft;
     root->right = rightSon;
     //TreeNode* root = NULL;
-    vector<int> v = inorderTraversal(root);
+    vector<int> v = preorderTraversal(root);
     for (int i = 0; i < v.size(); i++) {
         cout << v[i] << endl;
     }
+
+    //return 0;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
