@@ -23,8 +23,8 @@ int main()
     //cout << maxProduct(arr) << endl;
 
     string s = "a1b2";
-    //s = "3z4";
-    //s = "12345";
+    s = "3z4";
+    s = "12345";
     s = "C";
     vector<string> vs = letterCasePermutation(s);
     for (int i = 0; i < vs.size(); i++) {

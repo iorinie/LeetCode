@@ -9,8 +9,10 @@ using namespace std;
 
 vector<string> letterCasePermutation(string S);
 
-void recursion(string s, int start, int end, vector<string>& rslt);
+void dfs(string s, int start, string temp, vector<string>& rslt);
 
-void pushStrToVec(vector<string>& rslt, string s);
+//void recursion(string s, int start, int end, vector<string>& rslt);
+//
+//void pushStrToVec(vector<string>& rslt, string s);
 
 #endif
