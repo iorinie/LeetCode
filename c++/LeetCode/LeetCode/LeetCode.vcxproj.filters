@@ -99,6 +99,9 @@
     <ClCompile Include="LetterCasePermutation.cpp">
       <Filter>源文件\Backtracking</Filter>
     </ClCompile>
+    <ClCompile Include="FindDuplicate.cpp">
+      <Filter>源文件\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -145,6 +148,9 @@
     </ClInclude>
     <ClInclude Include="LetterCasePermutation.h">
       <Filter>头文件\Backtracking</Filter>
+    </ClInclude>
+    <ClInclude Include="FindDuplicate.h">
+      <Filter>头文件\Array</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

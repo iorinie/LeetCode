@@ -3,7 +3,7 @@
 
 #include <iostream>
 //#include "MaxProduct.h"
-#include "LetterCasePermutation.h"
+#include "FindDuplicate.h"
 
 using namespace std;
 
@@ -22,14 +22,18 @@ int main()
     //arr.push_back(-4);
     //cout << maxProduct(arr) << endl;
 
-    string s = "a1b2";
-    s = "3z4";
-    s = "12345";
-    s = "C";
-    vector<string> vs = letterCasePermutation(s);
-    for (int i = 0; i < vs.size(); i++) {
-        cout << vs[i] << endl;
-    }
+    vector<int> arr;
+    /*arr.push_back(1);
+    arr.push_back(3);
+    arr.push_back(4);
+    arr.push_back(2);
+    arr.push_back(2);*/
+    arr.push_back(3);
+    arr.push_back(1);
+    arr.push_back(3);
+    arr.push_back(4);
+    arr.push_back(2);
+    cout << findDuplicate(arr) << endl;
 
     return 0;
 }
