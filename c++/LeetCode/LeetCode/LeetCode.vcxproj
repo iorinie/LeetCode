@@ -161,6 +161,7 @@
     <ClCompile Include="PreorderTraversal.cpp" />
     <ClCompile Include="ReadBinaryWatch.cpp" />
     <ClCompile Include="RemoveNthFromEnd.cpp" />
+    <ClCompile Include="Rob.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="ValidPalindrome.cpp" />
@@ -179,6 +180,7 @@
     <ClInclude Include="PreorderTraversal.h" />
     <ClInclude Include="ReadBinaryWatch.h" />
     <ClInclude Include="RemoveNthFormEnd.h" />
+    <ClInclude Include="Rob.h" />
     <ClInclude Include="SingleNumber.h" />
     <ClInclude Include="TwoSum.h" />
     <ClInclude Include="ValidPalindrome.h" />
