@@ -3,7 +3,7 @@
 
 #include <iostream>
 //#include "MaxProduct.h"
-#include "KidsWithCandies.h"
+#include "ReverseWords.h"
 
 using namespace std;
 
@@ -22,27 +22,10 @@ int main()
     //arr.push_back(-4);
     //cout << maxProduct(arr) << endl;
 
-    vector<int> arr;
-    /*arr.push_back(2);
-    arr.push_back(3);
-    arr.push_back(5);
-    arr.push_back(1);
-    arr.push_back(3);
-    int extraCandies = 3;*/
-    /*arr.push_back(4);
-    arr.push_back(2);
-    arr.push_back(1);
-    arr.push_back(1);
-    arr.push_back(2);
-    int extraCandies = 1;*/
-    arr.push_back(12);
-    arr.push_back(1);
-    arr.push_back(12);
-    int extraCandies = 10;
-    vector<bool> r = kidsWithCandies(arr, extraCandies);
-    for (int i = 0; i < r.size(); i++) {
-        cout << r[i] << endl;
-    }
+    string s = "the sky is blue";
+    string s = "  hello world!  ";
+    string s = "a good   example";
+    cout << reverseWords(s) << endl;
 
     return 0;
 }
