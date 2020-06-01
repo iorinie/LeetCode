@@ -3,7 +3,7 @@
 
 #include <iostream>
 //#include "MaxProduct.h"
-#include "Rob.h"
+#include "KidsWithCandies.h"
 
 using namespace std;
 
@@ -23,28 +23,26 @@ int main()
     //cout << maxProduct(arr) << endl;
 
     vector<int> arr;
-    /*arr.push_back(1);
+    /*arr.push_back(2);
+    arr.push_back(3);
+    arr.push_back(5);
+    arr.push_back(1);
+    arr.push_back(3);
+    int extraCandies = 3;*/
+    /*arr.push_back(4);
     arr.push_back(2);
-    arr.push_back(3);
-    arr.push_back(1);*/
-    /*arr.push_back(2);
-    arr.push_back(7);
-    arr.push_back(9);
-    arr.push_back(3);
-    arr.push_back(1);*/
-    /*arr.push_back(2);
     arr.push_back(1);
     arr.push_back(1);
-    arr.push_back(2);*/
-    arr.push_back(6);
-    arr.push_back(6);
-    arr.push_back(4);
-    arr.push_back(8);
-    arr.push_back(4);
-    arr.push_back(3);
-    arr.push_back(3);
-    arr.push_back(10);
-    cout << rob(arr) << endl;
+    arr.push_back(2);
+    int extraCandies = 1;*/
+    arr.push_back(12);
+    arr.push_back(1);
+    arr.push_back(12);
+    int extraCandies = 10;
+    vector<bool> r = kidsWithCandies(arr, extraCandies);
+    for (int i = 0; i < r.size(); i++) {
+        cout << r[i] << endl;
+    }
 
     return 0;
 }

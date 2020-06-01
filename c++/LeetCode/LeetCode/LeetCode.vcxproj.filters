@@ -105,6 +105,9 @@
     <ClCompile Include="Rob.cpp">
       <Filter>源文件\DynamicPlanning</Filter>
     </ClCompile>
+    <ClCompile Include="KidsWithCandies.cpp">
+      <Filter>源文件\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -157,6 +160,9 @@
     </ClInclude>
     <ClInclude Include="Rob.h">
       <Filter>头文件\DynamicPlanning</Filter>
+    </ClInclude>
+    <ClInclude Include="KidsWithCandies.h">
+      <Filter>头文件\Array</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
