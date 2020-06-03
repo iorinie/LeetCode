@@ -26,8 +26,8 @@
     解法1：
     缺点：
     知识点：
-        1. 
-        2. 
+        1.
+        2.
 */
 string reverseWords(string s) {
 
