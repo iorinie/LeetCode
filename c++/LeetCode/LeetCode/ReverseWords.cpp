@@ -30,5 +30,46 @@
         2.
 */
 string reverseWords(string s) {
+    if (s == "") {
+        return s;
+    }
+    //翻转整个字符串
+    int i = 0, j = s.size() - 1;
+    while (i < j) {
+        char temp = s[i];
+        s[i] = s[j];
+        s[j] = temp;
+        i++;
+        j--;
+    }
+    //每个单词单独翻转
+    string rslt;
+    //int curIdx = 0;
+    int start = 0, end = 0;
+    while (end < s.size()) {
+        while (start < s.size() && s[start] == ' ') {
+            start++;
+        }
+        end = start + 1;
+        while (end < s.size() && s[end] != ' ') {
+            end++;
+        }
+        if (end > s.size()) {
+            end = s.size();
+        }
+        for (int i = end - 1; i >= start; i--) {
+            //rslt[curIdx++] = s[i];
+            rslt.push_back(s[i]);
+        }
+        //rslt[curIdx++] = ' ';
+        rslt.push_back(' ');
+        start = end;
+    }
+    int len = rslt.size() - 1;
+    while (len >= 0 && rslt.at(len) == ' ') {
+        rslt.pop_back();
+        len--;
+    }
 
+    return rslt;
 }

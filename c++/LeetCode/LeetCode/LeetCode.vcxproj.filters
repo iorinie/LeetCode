@@ -108,6 +108,9 @@
     <ClCompile Include="KidsWithCandies.cpp">
       <Filter>源文件\Array</Filter>
     </ClCompile>
+    <ClCompile Include="ReverseWords.cpp">
+      <Filter>源文件\String</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -163,6 +166,9 @@
     </ClInclude>
     <ClInclude Include="KidsWithCandies.h">
       <Filter>头文件\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseWords.h">
+      <Filter>头文件\String</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
