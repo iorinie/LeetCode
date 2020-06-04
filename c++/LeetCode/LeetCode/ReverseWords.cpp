@@ -23,12 +23,53 @@
 */
 
 /*
-    解法1：
-    缺点：
+    解法1：先翻转整个字符串，然后每个字符串单独翻转转移到新的空串，最后去除新串尾部的空格
+    缺点：许多情况涉及非常复杂繁琐的边界条件，代码不够优雅
     知识点：
-        1.
-        2.
+        1. 在空串基础上用下标递增赋值是不允许的
+        2. 字符串虽然size()方法长度为真实长度，但是该长度用下标取值是可以取到'\0'的
 */
 string reverseWords(string s) {
+    if (s == "") {
+        return s;
+    }
+    //翻转整个字符串
+    int i = 0, j = s.size() - 1;
+    while (i < j) {
+        char temp = s[i];
+        s[i] = s[j];
+        s[j] = temp;
+        i++;
+        j--;
+    }
+    //每个单词单独翻转
+    string rslt;
+    //int curIdx = 0;
+    int start = 0, end = 0;
+    while (end < s.size()) {
+        while (start < s.size() && s[start] == ' ') {
+            start++;
+        }
+        end = start + 1;
+        while (end < s.size() && s[end] != ' ') {
+            end++;
+        }
+        if (end > s.size()) {
+            end = s.size();
+        }
+        for (int i = end - 1; i >= start; i--) {
+            //rslt[curIdx++] = s[i];
+            rslt.push_back(s[i]);
+        }
+        //rslt[curIdx++] = ' ';
+        rslt.push_back(' ');
+        start = end;
+    }
+    int len = rslt.size() - 1;
+    while (len >= 0 && rslt.at(len) == ' ') {
+        rslt.pop_back();
+        len--;
+    }
 
+    return rslt;
 }

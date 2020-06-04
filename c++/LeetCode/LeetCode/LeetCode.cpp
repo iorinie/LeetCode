@@ -23,9 +23,13 @@ int main()
     //cout << maxProduct(arr) << endl;
 
     string s = "the sky is blue";
-    string s = "  hello world!  ";
-    string s = "a good   example";
-    cout << reverseWords(s) << endl;
+    s = "  hello world!  ";
+    s = "a good   example";
+    s = "";
+    s = " ";
+    //s = "a";
+    string rst = reverseWords(s);
+    cout << rst.size() << "\t" << rst << endl;
 
     return 0;
 }
