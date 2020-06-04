@@ -3,7 +3,7 @@
 
 #include <iostream>
 //#include "MaxProduct.h"
-#include "ReverseWords.h"
+#include "Memcpy.h"
 
 using namespace std;
 
@@ -22,14 +22,11 @@ int main()
     //arr.push_back(-4);
     //cout << maxProduct(arr) << endl;
 
-    string s = "the sky is blue";
-    s = "  hello world!  ";
-    s = "a good   example";
-    s = "";
-    s = " ";
-    //s = "a";
-    string rst = reverseWords(s);
-    cout << rst.size() << "\t" << rst << endl;
+    char s[256] = "hello world!";
+    char d[256] = {0};
+    cout << d << endl;
+    MyMemcpy(d, s, strlen(s));
+    cout << d << endl;
 
     return 0;
 }

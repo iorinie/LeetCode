@@ -49,6 +49,12 @@
     <Filter Include="头文件\DynamicPlanning">
       <UniqueIdentifier>{51fff7b2-cf57-4513-808d-d403aadc6f49}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Other">
+      <UniqueIdentifier>{2b008fc7-0272-4ef4-8b73-52f22404dcb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Other">
+      <UniqueIdentifier>{9ccf02ca-d615-44da-9b0a-fe1489a60304}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LeetCode.cpp">
@@ -111,6 +117,9 @@
     <ClCompile Include="ReverseWords.cpp">
       <Filter>源文件\String</Filter>
     </ClCompile>
+    <ClCompile Include="Memcpy.cpp">
+      <Filter>源文件\Other</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -169,6 +178,9 @@
     </ClInclude>
     <ClInclude Include="ReverseWords.h">
       <Filter>头文件\String</Filter>
+    </ClInclude>
+    <ClInclude Include="Memcpy.h">
+      <Filter>头文件\Other</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
