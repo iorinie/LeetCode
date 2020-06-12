@@ -36,7 +36,7 @@ vector<vector<int>> threeSum(vector<int>& nums) {
         return rslt;
     }
     int first = 0;
-    while (nums[first] <= 0) {
+    while (first < nums.size() && nums[first] <= 0) {
         int second = first + 1;
         int third = nums.size() - 1;
         int target = -nums[first];
