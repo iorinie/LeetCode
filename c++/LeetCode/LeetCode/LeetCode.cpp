@@ -3,7 +3,7 @@
 
 #include <iostream>
 //#include "MaxProduct.h"
-#include "Memcpy.h"
+#include "ThreeSum.h"
 
 using namespace std;
 
@@ -22,11 +22,23 @@ int main()
     //arr.push_back(-4);
     //cout << maxProduct(arr) << endl;
 
-    char s[256] = "hello world!";
-    char d[256] = {0};
-    cout << d << endl;
-    MyMemcpy(d, s, strlen(s));
-    cout << d << endl;
+    vector<int> arr;
+    /*arr.push_back(-1);
+    arr.push_back(0);
+    arr.push_back(1);
+    arr.push_back(2);
+    arr.push_back(-1);
+    arr.push_back(-4);*/
+    arr.push_back(0);
+    arr.push_back(0);
+    arr.push_back(0);
+    vector<vector<int>> rslt = threeSum(arr);
+    for (int i = 0; i < rslt.size(); i++) {
+        for (int j = 0; j < rslt[i].size(); j++) {
+            cout << rslt[i][j] << " ";
+        }
+        cout << endl;
+    }
 
     return 0;
 }

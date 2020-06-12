@@ -166,6 +166,7 @@
     <ClCompile Include="ReverseWords.cpp" />
     <ClCompile Include="Rob.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
+    <ClCompile Include="ThreeSum.cpp" />
     <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="ValidPalindrome.cpp" />
   </ItemGroup>
@@ -188,6 +189,7 @@
     <ClInclude Include="ReverseWords.h" />
     <ClInclude Include="Rob.h" />
     <ClInclude Include="SingleNumber.h" />
+    <ClInclude Include="ThreeSum.h" />
     <ClInclude Include="TwoSum.h" />
     <ClInclude Include="ValidPalindrome.h" />
   </ItemGroup>

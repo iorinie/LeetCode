@@ -120,6 +120,9 @@
     <ClCompile Include="Memcpy.cpp">
       <Filter>源文件\Other</Filter>
     </ClCompile>
+    <ClCompile Include="ThreeSum.cpp">
+      <Filter>源文件\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -181,6 +184,9 @@
     </ClInclude>
     <ClInclude Include="Memcpy.h">
       <Filter>头文件\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreeSum.h">
+      <Filter>头文件\Array</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
