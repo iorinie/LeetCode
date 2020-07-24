@@ -148,6 +148,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AddTwoNumbers.cpp" />
+    <ClCompile Include="CanWinNim.cpp" />
+    <ClCompile Include="DivisorGame.cpp" />
     <ClCompile Include="FindDuplicate.cpp" />
     <ClCompile Include="InorderTraversal.cpp" />
     <ClCompile Include="KidsWithCandies.cpp" />
@@ -160,6 +162,8 @@
     <ClCompile Include="MaxProfit.cpp" />
     <ClCompile Include="MaxSubArray.cpp" />
     <ClCompile Include="Memcpy.cpp" />
+    <ClCompile Include="MinArray.cpp" />
+    <ClCompile Include="MinPathSum.cpp" />
     <ClCompile Include="PreorderTraversal.cpp" />
     <ClCompile Include="ReadBinaryWatch.cpp" />
     <ClCompile Include="RemoveNthFromEnd.cpp" />
@@ -172,6 +176,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AddTwoNumbers.h" />
+    <ClInclude Include="CanWinNim.h" />
+    <ClInclude Include="DivisorGame.h" />
     <ClInclude Include="FindDuplicate.h" />
     <ClInclude Include="InorderTraversal.h" />
     <ClInclude Include="KidsWithCandies.h" />
@@ -183,6 +189,8 @@
     <ClInclude Include="MaxProfit.h" />
     <ClInclude Include="MaxSubArray.h" />
     <ClInclude Include="Memcpy.h" />
+    <ClInclude Include="MinArray.h" />
+    <ClInclude Include="MinPathSum.h" />
     <ClInclude Include="PreorderTraversal.h" />
     <ClInclude Include="ReadBinaryWatch.h" />
     <ClInclude Include="RemoveNthFormEnd.h" />

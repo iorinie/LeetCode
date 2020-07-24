@@ -3,7 +3,7 @@
 
 #include <iostream>
 //#include "MaxProduct.h"
-#include "ThreeSum.h"
+#include "MinPathSum.h"
 
 using namespace std;
 
@@ -22,23 +22,29 @@ int main()
     //arr.push_back(-4);
     //cout << maxProduct(arr) << endl;
 
-    vector<int> arr;
-    /*arr.push_back(-1);
-    arr.push_back(0);
-    arr.push_back(1);
-    arr.push_back(2);
-    arr.push_back(-1);
-    arr.push_back(-4);*/
-    arr.push_back(0);
-    arr.push_back(0);
-    arr.push_back(0);
-    vector<vector<int>> rslt = threeSum(arr);
-    for (int i = 0; i < rslt.size(); i++) {
-        for (int j = 0; j < rslt[i].size(); j++) {
-            cout << rslt[i][j] << " ";
-        }
-        cout << endl;
-    }
+    vector<vector<int>> arr;
+
+    vector<int>subArr1;
+    subArr1.push_back(1);
+    subArr1.push_back(3);
+    subArr1.push_back(1);
+
+    vector<int>subArr2;
+    subArr2.push_back(1);
+    subArr2.push_back(5);
+    subArr2.push_back(1);
+
+    vector<int>subArr3;
+    subArr3.push_back(4);
+    subArr3.push_back(2);
+    subArr3.push_back(1);
+
+    arr.push_back(subArr1);
+    arr.push_back(subArr2);
+    arr.push_back(subArr3);
+
+    int rslt = minPathSum(arr);
+    cout << rslt << endl;
 
     return 0;
 }
