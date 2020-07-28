@@ -158,6 +158,7 @@
     <ClCompile Include="LengthOfLongestSubstring.cpp" />
     <ClCompile Include="LetterCasePermutation.cpp" />
     <ClCompile Include="LevelOrder.cpp" />
+    <ClCompile Include="MaxDepth.cpp" />
     <ClCompile Include="MaxProduct.cpp" />
     <ClCompile Include="MaxProfit.cpp" />
     <ClCompile Include="MaxSubArray.cpp" />
@@ -185,6 +186,7 @@
     <ClInclude Include="LengthOfLongestSubstring.h" />
     <ClInclude Include="LetterCasePermutation.h" />
     <ClInclude Include="LevelOrder.h" />
+    <ClInclude Include="MaxDepth.h" />
     <ClInclude Include="MaxProduct.h" />
     <ClInclude Include="MaxProfit.h" />
     <ClInclude Include="MaxSubArray.h" />

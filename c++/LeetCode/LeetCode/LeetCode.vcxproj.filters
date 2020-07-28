@@ -135,6 +135,9 @@
     <ClCompile Include="CanWinNim.cpp">
       <Filter>源文件\DynamicPlanning</Filter>
     </ClCompile>
+    <ClCompile Include="MaxDepth.cpp">
+      <Filter>源文件\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -211,6 +214,9 @@
     </ClInclude>
     <ClInclude Include="CanWinNim.h">
       <Filter>头文件\DynamicPlanning</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxDepth.h">
+      <Filter>头文件\Tree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
