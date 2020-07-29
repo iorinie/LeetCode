@@ -138,6 +138,12 @@
     <ClCompile Include="MaxDepth.cpp">
       <Filter>源文件\Tree</Filter>
     </ClCompile>
+    <ClCompile Include="IsSubsequence.cpp">
+      <Filter>源文件\String</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestIncreasingPath.cpp">
+      <Filter>源文件\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -217,6 +223,12 @@
     </ClInclude>
     <ClInclude Include="MaxDepth.h">
       <Filter>头文件\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="IsSubsequence.h">
+      <Filter>头文件\String</Filter>
+    </ClInclude>
+    <ClInclude Include="LongestIncreasingPath.h">
+      <Filter>头文件\Array</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
