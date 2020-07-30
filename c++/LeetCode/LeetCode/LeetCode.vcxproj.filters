@@ -144,6 +144,9 @@
     <ClCompile Include="LongestIncreasingPath.cpp">
       <Filter>源文件\Array</Filter>
     </ClCompile>
+    <ClCompile Include="IntegerBreak.cpp">
+      <Filter>源文件\DynamicPlanning</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -229,6 +232,9 @@
     </ClInclude>
     <ClInclude Include="LongestIncreasingPath.h">
       <Filter>头文件\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegerBreak.h">
+      <Filter>头文件\DynamicPlanning</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

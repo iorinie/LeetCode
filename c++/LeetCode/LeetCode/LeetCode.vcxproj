@@ -152,6 +152,7 @@
     <ClCompile Include="DivisorGame.cpp" />
     <ClCompile Include="FindDuplicate.cpp" />
     <ClCompile Include="InorderTraversal.cpp" />
+    <ClCompile Include="IntegerBreak.cpp" />
     <ClCompile Include="IsSubsequence.cpp" />
     <ClCompile Include="KidsWithCandies.cpp" />
     <ClCompile Include="LeetCode.cpp" />
@@ -183,6 +184,7 @@
     <ClInclude Include="DivisorGame.h" />
     <ClInclude Include="FindDuplicate.h" />
     <ClInclude Include="InorderTraversal.h" />
+    <ClInclude Include="IntegerBreak.h" />
     <ClInclude Include="IsSubsequence.h" />
     <ClInclude Include="KidsWithCandies.h" />
     <ClInclude Include="LengthOfLIS.h" />
