@@ -3,7 +3,7 @@
 
 #include <iostream>
 //#include "MaxProduct.h"
-#include "IntegerBreak.h"
+#include "AddStrings.h"
 
 using namespace std;
 
@@ -22,7 +22,7 @@ int main()
     //arr.push_back(-4);
     //cout << maxProduct(arr) << endl;
 
-    int rslt = integerBreak(10);
+    string rslt = addStrings("1000", "100");
     cout << rslt << endl;
 
     return 0;

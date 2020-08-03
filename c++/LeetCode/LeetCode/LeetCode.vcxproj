@@ -147,10 +147,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AddStrings.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="CanWinNim.cpp" />
     <ClCompile Include="DivisorGame.cpp" />
     <ClCompile Include="FindDuplicate.cpp" />
+    <ClCompile Include="FindMagicIndex.cpp" />
     <ClCompile Include="GenerateTrees.cpp" />
     <ClCompile Include="InorderTraversal.cpp" />
     <ClCompile Include="IntegerBreak.cpp" />
@@ -180,10 +182,12 @@
     <ClCompile Include="ValidPalindrome.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AddStrings.h" />
     <ClInclude Include="AddTwoNumbers.h" />
     <ClInclude Include="CanWinNim.h" />
     <ClInclude Include="DivisorGame.h" />
     <ClInclude Include="FindDuplicate.h" />
+    <ClInclude Include="FindMagicIndex.h" />
     <ClInclude Include="GenerateTrees.h" />
     <ClInclude Include="InorderTraversal.h" />
     <ClInclude Include="IntegerBreak.h" />
