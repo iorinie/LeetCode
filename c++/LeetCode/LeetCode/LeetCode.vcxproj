@@ -151,6 +151,7 @@
     <ClCompile Include="CanWinNim.cpp" />
     <ClCompile Include="DivisorGame.cpp" />
     <ClCompile Include="FindDuplicate.cpp" />
+    <ClCompile Include="GenerateTrees.cpp" />
     <ClCompile Include="InorderTraversal.cpp" />
     <ClCompile Include="IntegerBreak.cpp" />
     <ClCompile Include="IsSubsequence.cpp" />
@@ -183,6 +184,7 @@
     <ClInclude Include="CanWinNim.h" />
     <ClInclude Include="DivisorGame.h" />
     <ClInclude Include="FindDuplicate.h" />
+    <ClInclude Include="GenerateTrees.h" />
     <ClInclude Include="InorderTraversal.h" />
     <ClInclude Include="IntegerBreak.h" />
     <ClInclude Include="IsSubsequence.h" />

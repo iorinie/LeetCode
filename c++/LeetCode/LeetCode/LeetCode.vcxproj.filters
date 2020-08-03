@@ -147,6 +147,9 @@
     <ClCompile Include="IntegerBreak.cpp">
       <Filter>源文件\DynamicPlanning</Filter>
     </ClCompile>
+    <ClCompile Include="GenerateTrees.cpp">
+      <Filter>源文件\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -235,6 +238,9 @@
     </ClInclude>
     <ClInclude Include="IntegerBreak.h">
       <Filter>头文件\DynamicPlanning</Filter>
+    </ClInclude>
+    <ClInclude Include="GenerateTrees.h">
+      <Filter>头文件\Tree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
