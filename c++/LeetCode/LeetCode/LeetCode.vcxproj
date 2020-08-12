@@ -156,6 +156,7 @@
     <ClCompile Include="GenerateTrees.cpp" />
     <ClCompile Include="InorderTraversal.cpp" />
     <ClCompile Include="IntegerBreak.cpp" />
+    <ClCompile Include="IsSameTree.cpp" />
     <ClCompile Include="IsSubsequence.cpp" />
     <ClCompile Include="KidsWithCandies.cpp" />
     <ClCompile Include="LeetCode.cpp" />
@@ -191,6 +192,7 @@
     <ClInclude Include="GenerateTrees.h" />
     <ClInclude Include="InorderTraversal.h" />
     <ClInclude Include="IntegerBreak.h" />
+    <ClInclude Include="IsSameTree.h" />
     <ClInclude Include="IsSubsequence.h" />
     <ClInclude Include="KidsWithCandies.h" />
     <ClInclude Include="LengthOfLIS.h" />
