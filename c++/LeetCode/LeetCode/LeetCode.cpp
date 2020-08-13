@@ -2,65 +2,13 @@
 //
 
 #include <iostream>
-#include "MaxProduct.h"
 #include "GenerateTrees.h"
 
 using namespace std;
 
 int main()
 {
-    vector<int> arr;
-    arr.push_back(0);
-    arr.push_back(-1);
-    arr.push_back(4);
-    arr.push_back(-4);
-    arr.push_back(5);
-    arr.push_back(-2);
-    arr.push_back(-1);
-    arr.push_back(-1);
-    arr.push_back(-2);
-    arr.push_back(-3);
-    arr.push_back(0);
-    arr.push_back(-3);
-    arr.push_back(0);
-    arr.push_back(1);
-    arr.push_back(-1);
-    arr.push_back(-4);
-    arr.push_back(4);
-    arr.push_back(6);
-    arr.push_back(2);
-    arr.push_back(3);
-    arr.push_back(0);
-    arr.push_back(-5);
-    arr.push_back(2);
-    arr.push_back(1);
-    arr.push_back(-4);
-    arr.push_back(-2);
-    arr.push_back(-1);
-    arr.push_back(3);
-    arr.push_back(-4);
-    arr.push_back(-6);
-    arr.push_back(0);
-    arr.push_back(2);
-    arr.push_back(2);
-    arr.push_back(-1);
-    arr.push_back(-5);
-    arr.push_back(1);
-    arr.push_back(1);
-    arr.push_back(5);
-    arr.push_back(-6);
-    arr.push_back(2);
-    arr.push_back(1);
-    arr.push_back(-3);
-    arr.push_back(-6);
-    arr.push_back(-6);
-    arr.push_back(-3);
-    arr.push_back(4);
-    arr.push_back(0);
-    arr.push_back(-2);
-    arr.push_back(0);
-    arr.push_back(2);
-    cout << maxProduct(arr) << endl;
+    
 
     return 0;
 }

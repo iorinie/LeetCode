@@ -159,6 +159,9 @@
     <ClCompile Include="IsSameTree.cpp">
       <Filter>源文件\Tree</Filter>
     </ClCompile>
+    <ClCompile Include="Multiply.cpp">
+      <Filter>源文件\String</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -259,6 +262,9 @@
     </ClInclude>
     <ClInclude Include="IsSameTree.h">
       <Filter>头文件\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Multiply.h">
+      <Filter>头文件\String</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
