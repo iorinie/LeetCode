@@ -150,6 +150,7 @@
     <ClCompile Include="AddStrings.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="CanWinNim.cpp" />
+    <ClCompile Include="CountBinarySubstrings.cpp" />
     <ClCompile Include="DivisorGame.cpp" />
     <ClCompile Include="FindDuplicate.cpp" />
     <ClCompile Include="FindMagicIndex.cpp" />
@@ -182,12 +183,14 @@
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="ThreeSum.cpp" />
     <ClCompile Include="TwoSum.cpp" />
+    <ClCompile Include="UpdateBoard.cpp" />
     <ClCompile Include="ValidPalindrome.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AddStrings.h" />
     <ClInclude Include="AddTwoNumbers.h" />
     <ClInclude Include="CanWinNim.h" />
+    <ClInclude Include="CountBinarySubstrings.h" />
     <ClInclude Include="DivisorGame.h" />
     <ClInclude Include="FindDuplicate.h" />
     <ClInclude Include="FindMagicIndex.h" />
@@ -219,6 +222,7 @@
     <ClInclude Include="SingleNumber.h" />
     <ClInclude Include="ThreeSum.h" />
     <ClInclude Include="TwoSum.h" />
+    <ClInclude Include="UpdateBoard.h" />
     <ClInclude Include="ValidPalindrome.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

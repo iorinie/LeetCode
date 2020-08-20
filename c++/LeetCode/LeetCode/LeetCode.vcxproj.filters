@@ -165,6 +165,12 @@
     <ClCompile Include="IsValid.cpp">
       <Filter>源文件\String</Filter>
     </ClCompile>
+    <ClCompile Include="CountBinarySubstrings.cpp">
+      <Filter>源文件\String</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateBoard.cpp">
+      <Filter>源文件\DynamicPlanning</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -271,6 +277,12 @@
     </ClInclude>
     <ClInclude Include="IsValid.h">
       <Filter>头文件\String</Filter>
+    </ClInclude>
+    <ClInclude Include="CountBinarySubstrings.h">
+      <Filter>头文件\String</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateBoard.h">
+      <Filter>头文件\DynamicPlanning</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
