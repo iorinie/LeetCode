@@ -3,46 +3,12 @@
 
 #include <iostream>
 #include "GenerateTrees.h"
-#include "UpdateBoard.h"
 
 using namespace std;
 
 int main()
 {
-    vector<vector<char>> board;
-    vector<char> row1;
-    row1.push_back('E');
-    row1.push_back('E');
-    row1.push_back('E');
-    row1.push_back('E');
-    row1.push_back('E');
-    board.push_back(row1);
-    vector<char> row2;
-    row2.push_back('E');
-    row2.push_back('E');
-    row2.push_back('M');
-    row2.push_back('E');
-    row2.push_back('E');
-    board.push_back(row2);
-    vector<char> row3;
-    row3.push_back('E');
-    row3.push_back('E');
-    row3.push_back('E');
-    row3.push_back('E');
-    row3.push_back('E');
-    board.push_back(row3);
-    vector<char> row4;
-    row4.push_back('E');
-    row4.push_back('E');
-    row4.push_back('E');
-    row4.push_back('E');
-    row4.push_back('E');
-    board.push_back(row4);
-
-    vector<int> click;
-    click.push_back(3);
-    click.push_back(0);
-    updateBoard(board, click);
+    
 
     return 0;
 }
