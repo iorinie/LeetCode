@@ -26,29 +26,59 @@
         3. image[i][j] 和 newColor 表示的颜色值在范围 [0, 65535]内。
 */
 /*
-    解法1：递归，使用备忘录
+    解法2：递归，不使用备忘录
     缺点：
     知识点：
         1.
 */
 vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int newColor) {
     int preColor = image[sr][sc];
-    vector<vector<int>> visited(image.size(), vector<int>(image[0].size(), 0));
-    changeColor(image, visited, sr, sc, newColor, preColor);
+    if (preColor == newColor) {
+        return image;
+    }
+
+    changeColor(image, sr, sc, newColor, preColor);
 
     return image;
 }
 
-void changeColor(vector<vector<int>>& image, vector<vector<int>>& visited, int sr, int sc, int newColor, int preColor) {
-    if (sr < 0 || sr >= image.size() || sc < 0 || sc >= image[sr].size() || visited[sr][sc] == 1 || image[sr][sc] != preColor) {
+void changeColor(vector<vector<int>>& image, int sr, int sc, int newColor, int preColor) {
+    if (sr < 0 || sr >= image.size() || sc < 0 || sc >= image[sr].size() || image[sr][sc] != preColor) {
         return;
     }
 
     image[sr][sc] = newColor;
-    visited[sr][sc] = 1;
 
-    changeColor(image, visited, sr - 1, sc, newColor, preColor);
-    changeColor(image, visited, sr + 1, sc, newColor, preColor);
-    changeColor(image, visited, sr, sc - 1, newColor, preColor);
-    changeColor(image, visited, sr, sc + 1, newColor, preColor);
+    changeColor(image, sr - 1, sc, newColor, preColor);
+    changeColor(image, sr + 1, sc, newColor, preColor);
+    changeColor(image, sr, sc - 1, newColor, preColor);
+    changeColor(image, sr, sc + 1, newColor, preColor);
 }
+
+/*
+    解法1：递归，使用备忘录
+    缺点：
+    知识点：
+        1.
+*/
+//vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int newColor) {
+//    int preColor = image[sr][sc];
+//    vector<vector<int>> visited(image.size(), vector<int>(image[0].size(), 0));
+//    changeColor(image, visited, sr, sc, newColor, preColor);
+//
+//    return image;
+//}
+//
+//void changeColor(vector<vector<int>>& image, vector<vector<int>>& visited, int sr, int sc, int newColor, int preColor) {
+//    if (sr < 0 || sr >= image.size() || sc < 0 || sc >= image[sr].size() || visited[sr][sc] == 1 || image[sr][sc] != preColor) {
+//        return;
+//    }
+//
+//    image[sr][sc] = newColor;
+//    visited[sr][sc] = 1;
+//
+//    changeColor(image, visited, sr - 1, sc, newColor, preColor);
+//    changeColor(image, visited, sr + 1, sc, newColor, preColor);
+//    changeColor(image, visited, sr, sc - 1, newColor, preColor);
+//    changeColor(image, visited, sr, sc + 1, newColor, preColor);
+//}

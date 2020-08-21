@@ -154,6 +154,7 @@
     <ClCompile Include="DivisorGame.cpp" />
     <ClCompile Include="FindDuplicate.cpp" />
     <ClCompile Include="FindMagicIndex.cpp" />
+    <ClCompile Include="FloodFill.cpp" />
     <ClCompile Include="GenerateTrees.cpp" />
     <ClCompile Include="InorderTraversal.cpp" />
     <ClCompile Include="IntegerBreak.cpp" />
@@ -195,6 +196,7 @@
     <ClInclude Include="DivisorGame.h" />
     <ClInclude Include="FindDuplicate.h" />
     <ClInclude Include="FindMagicIndex.h" />
+    <ClInclude Include="FloodFill.h" />
     <ClInclude Include="GenerateTrees.h" />
     <ClInclude Include="InorderTraversal.h" />
     <ClInclude Include="IntegerBreak.h" />
