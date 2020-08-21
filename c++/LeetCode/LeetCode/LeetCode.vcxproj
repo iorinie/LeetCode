@@ -173,6 +173,7 @@
     <ClCompile Include="MaxSubArray.cpp" />
     <ClCompile Include="Memcpy.cpp" />
     <ClCompile Include="MinArray.cpp" />
+    <ClCompile Include="MinDepth.cpp" />
     <ClCompile Include="MinPathSum.cpp" />
     <ClCompile Include="Multiply.cpp" />
     <ClCompile Include="PreorderTraversal.cpp" />
@@ -212,6 +213,7 @@
     <ClInclude Include="MaxSubArray.h" />
     <ClInclude Include="Memcpy.h" />
     <ClInclude Include="MinArray.h" />
+    <ClInclude Include="MinDepth.h" />
     <ClInclude Include="MinPathSum.h" />
     <ClInclude Include="Multiply.h" />
     <ClInclude Include="PreorderTraversal.h" />

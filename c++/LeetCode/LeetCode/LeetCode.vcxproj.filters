@@ -171,6 +171,9 @@
     <ClCompile Include="UpdateBoard.cpp">
       <Filter>源文件\DynamicPlanning</Filter>
     </ClCompile>
+    <ClCompile Include="MinDepth.cpp">
+      <Filter>源文件\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -283,6 +286,9 @@
     </ClInclude>
     <ClInclude Include="UpdateBoard.h">
       <Filter>头文件\DynamicPlanning</Filter>
+    </ClInclude>
+    <ClInclude Include="MinDepth.h">
+      <Filter>头文件\Tree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
