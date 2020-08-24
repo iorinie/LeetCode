@@ -158,6 +158,7 @@
     <ClCompile Include="GenerateTrees.cpp" />
     <ClCompile Include="InorderTraversal.cpp" />
     <ClCompile Include="IntegerBreak.cpp" />
+    <ClCompile Include="IsBalanced.cpp" />
     <ClCompile Include="IsSameTree.cpp" />
     <ClCompile Include="IsSubsequence.cpp" />
     <ClCompile Include="IsValid.cpp" />
@@ -180,6 +181,7 @@
     <ClCompile Include="PreorderTraversal.cpp" />
     <ClCompile Include="ReadBinaryWatch.cpp" />
     <ClCompile Include="RemoveNthFromEnd.cpp" />
+    <ClCompile Include="RepeatedSubstringPattern.cpp" />
     <ClCompile Include="ReverseWords.cpp" />
     <ClCompile Include="Rob.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
@@ -200,6 +202,7 @@
     <ClInclude Include="GenerateTrees.h" />
     <ClInclude Include="InorderTraversal.h" />
     <ClInclude Include="IntegerBreak.h" />
+    <ClInclude Include="IsBalanced.h" />
     <ClInclude Include="IsSameTree.h" />
     <ClInclude Include="IsSubsequence.h" />
     <ClInclude Include="IsValid.h" />
@@ -221,6 +224,7 @@
     <ClInclude Include="PreorderTraversal.h" />
     <ClInclude Include="ReadBinaryWatch.h" />
     <ClInclude Include="RemoveNthFormEnd.h" />
+    <ClInclude Include="RepeatedSubstringPattern.h" />
     <ClInclude Include="ReverseWords.h" />
     <ClInclude Include="Rob.h" />
     <ClInclude Include="SingleNumber.h" />

@@ -3,12 +3,13 @@
 
 #include <iostream>
 #include "GenerateTrees.h"
+#include "RepeatedSubstringPattern.h"
 
 using namespace std;
 
 int main()
 {
-    
+    cout << repeatedSubstringPattern("aba") << endl;
 
     return 0;
 }

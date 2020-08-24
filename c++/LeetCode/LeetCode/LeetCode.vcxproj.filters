@@ -177,6 +177,12 @@
     <ClCompile Include="FloodFill.cpp">
       <Filter>源文件\Array</Filter>
     </ClCompile>
+    <ClCompile Include="IsBalanced.cpp">
+      <Filter>源文件\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="RepeatedSubstringPattern.cpp">
+      <Filter>源文件\String</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -295,6 +301,12 @@
     </ClInclude>
     <ClInclude Include="FloodFill.h">
       <Filter>头文件\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="IsBalanced.h">
+      <Filter>头文件\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="RepeatedSubstringPattern.h">
+      <Filter>头文件\String</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

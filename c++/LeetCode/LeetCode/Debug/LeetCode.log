@@ -1,12 +1,2 @@
-﻿  UpdateBoard.cpp
-D:\Work\github\LeetCode\c++\LeetCode\LeetCode\UpdateBoard.cpp(65,46): warning C4018: “>=”: 有符号/无符号不匹配
-D:\Work\github\LeetCode\c++\LeetCode\LeetCode\UpdateBoard.cpp(69,50): warning C4018: “>=”: 有符号/无符号不匹配
-D:\Work\github\LeetCode\c++\LeetCode\LeetCode\UpdateBoard.cpp(87,23): warning C4018: “<”: 有符号/无符号不匹配
-D:\Work\github\LeetCode\c++\LeetCode\LeetCode\UpdateBoard.cpp(88,27): warning C4018: “<”: 有符号/无符号不匹配
-D:\Work\github\LeetCode\c++\LeetCode\LeetCode\UpdateBoard.cpp(104,24): warning C4018: “>=”: 有符号/无符号不匹配
-D:\Work\github\LeetCode\c++\LeetCode\LeetCode\UpdateBoard.cpp(104,62): warning C4018: “>=”: 有符号/无符号不匹配
-D:\Work\github\LeetCode\c++\LeetCode\LeetCode\UpdateBoard.cpp(108,36): warning C4018: “>=”: 有符号/无符号不匹配
-D:\Work\github\LeetCode\c++\LeetCode\LeetCode\UpdateBoard.cpp(112,44): warning C4018: “>=”: 有符号/无符号不匹配
-D:\Work\github\LeetCode\c++\LeetCode\LeetCode\UpdateBoard.cpp(136,36): warning C4018: “>=”: 有符号/无符号不匹配
-D:\Work\github\LeetCode\c++\LeetCode\LeetCode\UpdateBoard.cpp(140,44): warning C4018: “>=”: 有符号/无符号不匹配
+﻿  RepeatedSubstringPattern.cpp
   LeetCode.vcxproj -> D:\Work\github\LeetCode\c++\LeetCode\Debug\LeetCode.exe
