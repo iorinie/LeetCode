@@ -11,8 +11,13 @@ struct TreeNode {
 	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
+struct MultpRtn {
+	bool isB;
+	int depth;
+};
+
 bool isBalanced(TreeNode* node);
 
-bool recordDepth(TreeNode* node);
+MultpRtn isBST(TreeNode* node);
 
 #endif // !ISBALANCED_H

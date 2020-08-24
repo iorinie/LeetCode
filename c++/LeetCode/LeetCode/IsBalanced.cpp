@@ -1,4 +1,5 @@
 ﻿#include "IsBalanced.h"
+#include <algorithm>
 
 using namespace std;
 
@@ -43,22 +44,28 @@ using namespace std;
         输出：false
 */
 /*
-    解法1：深度优先遍历，每层记录自己的高度，上层判断是否高度平衡，递归返回
+    解法1：深度优先遍历，递归地判断左右子树是否为高度平衡的二叉树，返回是否高度平衡及高度信息
     缺点：
     知识点：
-        1.
+        1. 函数返回值多个时，使用结构体返回，或将多个需要返回的变量以引用方式传参进去
 */
 bool isBalanced(TreeNode* root) {
-    return recordDepth(root);
+    return isBST(root).isB;
 }
 
-bool recordDepth(TreeNode* node) {
-    if (!node) {
-        return true;
+MultpRtn isBST(TreeNode* node) {
+    if (!node) { //空节点，平衡
+        return MultpRtn{ true, 0 };
     }
 
-    recordDepth(node->left);
-    recordDepth(node->right);
+    MultpRtn leftRtn = isBST(node->left);
+    MultpRtn rightRtn = isBST(node->right);
+    if (!leftRtn.isB || !rightRtn.isB) {
+        return MultpRtn{ false, 0 };
+    }
+    if (abs(leftRtn.depth - rightRtn.depth) > 1) {
+        return MultpRtn{ false, 0 };
+    }
 
-    return true;
+    return MultpRtn{ true, max(leftRtn.depth, rightRtn.depth) + 1 };
 }
