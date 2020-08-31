@@ -183,6 +183,15 @@
     <ClCompile Include="RepeatedSubstringPattern.cpp">
       <Filter>源文件\String</Filter>
     </ClCompile>
+    <ClCompile Include="LetterCombinations.cpp">
+      <Filter>源文件\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="FindItinerary.cpp">
+      <Filter>源文件\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="CanVisitAllRooms.cpp">
+      <Filter>源文件\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -307,6 +316,15 @@
     </ClInclude>
     <ClInclude Include="RepeatedSubstringPattern.h">
       <Filter>头文件\String</Filter>
+    </ClInclude>
+    <ClInclude Include="LetterCombinations.h">
+      <Filter>头文件\Backtracking</Filter>
+    </ClInclude>
+    <ClInclude Include="FindItinerary.h">
+      <Filter>头文件\Backtracking</Filter>
+    </ClInclude>
+    <ClInclude Include="CanVisitAllRooms.h">
+      <Filter>头文件\Array</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

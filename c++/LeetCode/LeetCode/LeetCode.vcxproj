@@ -149,10 +149,12 @@
   <ItemGroup>
     <ClCompile Include="AddStrings.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
+    <ClCompile Include="CanVisitAllRooms.cpp" />
     <ClCompile Include="CanWinNim.cpp" />
     <ClCompile Include="CountBinarySubstrings.cpp" />
     <ClCompile Include="DivisorGame.cpp" />
     <ClCompile Include="FindDuplicate.cpp" />
+    <ClCompile Include="FindItinerary.cpp" />
     <ClCompile Include="FindMagicIndex.cpp" />
     <ClCompile Include="FloodFill.cpp" />
     <ClCompile Include="GenerateTrees.cpp" />
@@ -167,6 +169,7 @@
     <ClCompile Include="LengthOfLIS.cpp" />
     <ClCompile Include="LengthOfLongestSubstring.cpp" />
     <ClCompile Include="LetterCasePermutation.cpp" />
+    <ClCompile Include="LetterCombinations.cpp" />
     <ClCompile Include="LevelOrder.cpp" />
     <ClCompile Include="LongestIncreasingPath.cpp" />
     <ClCompile Include="MaxDepth.cpp" />
@@ -193,10 +196,12 @@
   <ItemGroup>
     <ClInclude Include="AddStrings.h" />
     <ClInclude Include="AddTwoNumbers.h" />
+    <ClInclude Include="CanVisitAllRooms.h" />
     <ClInclude Include="CanWinNim.h" />
     <ClInclude Include="CountBinarySubstrings.h" />
     <ClInclude Include="DivisorGame.h" />
     <ClInclude Include="FindDuplicate.h" />
+    <ClInclude Include="FindItinerary.h" />
     <ClInclude Include="FindMagicIndex.h" />
     <ClInclude Include="FloodFill.h" />
     <ClInclude Include="GenerateTrees.h" />
@@ -210,6 +215,7 @@
     <ClInclude Include="LengthOfLIS.h" />
     <ClInclude Include="LengthOfLongestSubstring.h" />
     <ClInclude Include="LetterCasePermutation.h" />
+    <ClInclude Include="LetterCombinations.h" />
     <ClInclude Include="LevelOrder.h" />
     <ClInclude Include="LongestIncreasingPath.h" />
     <ClInclude Include="MaxDepth.h" />

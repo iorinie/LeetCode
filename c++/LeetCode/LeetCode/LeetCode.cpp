@@ -3,12 +3,25 @@
 
 #include <iostream>
 #include "GenerateTrees.h"
+#include "CanVisitAllRooms.h"
 
 using namespace std;
 
 int main()
 {
-    
+    vector<vector<int>> rooms = {
+        {1},
+        {2},
+        {3},
+        {}
+    };
+    /*vector<vector<int>> rooms = {
+        {1,3},
+        {3,0,1},
+        {2},
+        {0}
+    };*/
+    cout << canVisitAllRooms(rooms) << endl;
 
     return 0;
 }
