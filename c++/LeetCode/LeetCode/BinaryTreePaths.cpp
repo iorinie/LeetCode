@@ -18,9 +18,10 @@
 */
 /*
     解法1：深度优先搜索，遇到叶子结点记录结果
-    缺点：
+    缺点：时间复杂度有点高，和调用string.substr()有关系，可以通过更改逻辑方式避免这个调用
     知识点：
-        1.
+        1. 注意题干特别提示了叶子结点的定义，需要特别注意递归的终止条件
+        2. +=的操作，表达式右边仍然可以出现+
 */
 vector<string> binaryTreePaths(TreeNode* root) {
     vector<string> rslt;
