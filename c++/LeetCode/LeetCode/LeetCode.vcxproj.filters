@@ -195,6 +195,12 @@
     <ClCompile Include="SolveNQueens.cpp">
       <Filter>源文件\Backtracking</Filter>
     </ClCompile>
+    <ClCompile Include="BinaryTreePaths.cpp">
+      <Filter>源文件\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="ShoppingOffers.cpp">
+      <Filter>源文件\Backtracking</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -330,6 +336,12 @@
       <Filter>头文件\Array</Filter>
     </ClInclude>
     <ClInclude Include="SolveNQueens.h">
+      <Filter>头文件\Backtracking</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreePaths.h">
+      <Filter>头文件\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="ShoppingOffers.h">
       <Filter>头文件\Backtracking</Filter>
     </ClInclude>
   </ItemGroup>

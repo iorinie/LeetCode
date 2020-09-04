@@ -3,25 +3,26 @@
 
 #include <iostream>
 #include "GenerateTrees.h"
-#include "CanVisitAllRooms.h"
+#include "ShoppingOffers.h"
 
 using namespace std;
 
 int main()
 {
-    vector<vector<int>> rooms = {
-        {1},
-        {2},
-        {3},
-        {}
+    vector<int> price = {2,5};
+    vector<vector<int>> special = {
+        {3,0,5},
+        {1,2,10},
     };
-    /*vector<vector<int>> rooms = {
-        {1,3},
-        {3,0,1},
-        {2},
-        {0}
-    };*/
-    cout << canVisitAllRooms(rooms) << endl;
+    vector<int> needs = {3,2};
+    /*vector<int> price = { 2,3,4 };
+    vector<vector<int>> special = {
+        {1,1,0,4},
+        {2,2,1,9},
+    };
+    vector<int> needs = { 1,2,1 };*/
+    
+    cout << shoppingOffers(price, special, needs) << endl;
 
     return 0;
 }
