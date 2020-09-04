@@ -34,10 +34,10 @@
         3. 你不可以购买超出待购清单的物品，即使更便宜。
 */
 /*
-    解法1：回溯，
-    缺点：
+    解法1：回溯，剪枝
+    缺点：改变递归的结构，可以将购买大礼包和单独购买的逻辑整合起来，代码更优雅；可以将特定needs的最小结果存储到备忘录，用于剪枝
     知识点：
-        1.
+        1. vector的最后一个元素，可以用back()获取
 */
 int min = 0;
 
@@ -63,7 +63,7 @@ void recurse(vector<int>& price, vector<vector<int>>& special, vector<int>& need
         for (int j = 0; j < needs.size(); j++) {
             needs[j] -= special[i][j];
         }
-        recurse(price, special, needs, curPrice + special[i][special[i].size() - 1]);
+        recurse(price, special, needs, curPrice + special[i][special[i].size() - 1]); //special[i].back()
         for (int j = 0; j < needs.size(); j++) {
             needs[j] += special[i][j];
         }
