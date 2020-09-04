@@ -192,6 +192,9 @@
     <ClCompile Include="CanVisitAllRooms.cpp">
       <Filter>源文件\Array</Filter>
     </ClCompile>
+    <ClCompile Include="SolveNQueens.cpp">
+      <Filter>源文件\Backtracking</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -325,6 +328,9 @@
     </ClInclude>
     <ClInclude Include="CanVisitAllRooms.h">
       <Filter>头文件\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="SolveNQueens.h">
+      <Filter>头文件\Backtracking</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -188,6 +188,7 @@
     <ClCompile Include="ReverseWords.cpp" />
     <ClCompile Include="Rob.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
+    <ClCompile Include="SolveNQueens.cpp" />
     <ClCompile Include="ThreeSum.cpp" />
     <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="UpdateBoard.cpp" />
@@ -234,6 +235,7 @@
     <ClInclude Include="ReverseWords.h" />
     <ClInclude Include="Rob.h" />
     <ClInclude Include="SingleNumber.h" />
+    <ClInclude Include="SolveNQueens.h" />
     <ClInclude Include="ThreeSum.h" />
     <ClInclude Include="TwoSum.h" />
     <ClInclude Include="UpdateBoard.h" />
