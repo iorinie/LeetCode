@@ -2,27 +2,12 @@
 //
 
 #include <iostream>
-#include "GenerateTrees.h"
-#include "ShoppingOffers.h"
 
 using namespace std;
 
 int main()
 {
-    vector<int> price = {2,5};
-    vector<vector<int>> special = {
-        {3,0,5},
-        {1,2,10},
-    };
-    vector<int> needs = {3,2};
-    /*vector<int> price = { 2,3,4 };
-    vector<vector<int>> special = {
-        {1,1,0,4},
-        {2,2,1,9},
-    };
-    vector<int> needs = { 1,2,1 };*/
     
-    cout << shoppingOffers(price, special, needs) << endl;
 
     return 0;
 }

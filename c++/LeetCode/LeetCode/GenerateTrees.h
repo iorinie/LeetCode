@@ -17,8 +17,10 @@ struct TreeNode {
 
 vector<TreeNode*> generateTrees(int n);
 
-void selectBinarySearchTreeNode(vector<TreeNode*>& rslt, vector<int>& source, vector<int>& path);
+//void selectBinarySearchTreeNode(vector<TreeNode*>& rslt, vector<int>& source, vector<int>& path, vector<bool> visited);
+//
+//TreeNode* buildBinarySearchTree(vector<int>& path);
 
-TreeNode* buildBinarySearchTree(vector<int>& path);
+vector<TreeNode*> buildBinarySearchTree(int start, int end);
 
 #endif // !GENERATETREES_H
