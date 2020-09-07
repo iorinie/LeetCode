@@ -201,6 +201,9 @@
     <ClCompile Include="ShoppingOffers.cpp">
       <Filter>源文件\Backtracking</Filter>
     </ClCompile>
+    <ClCompile Include="GetPermutation.cpp">
+      <Filter>源文件\Backtracking</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -342,6 +345,9 @@
       <Filter>头文件\Tree</Filter>
     </ClInclude>
     <ClInclude Include="ShoppingOffers.h">
+      <Filter>头文件\Backtracking</Filter>
+    </ClInclude>
+    <ClInclude Include="GetPermutation.h">
       <Filter>头文件\Backtracking</Filter>
     </ClInclude>
   </ItemGroup>

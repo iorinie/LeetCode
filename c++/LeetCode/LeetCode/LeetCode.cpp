@@ -2,12 +2,13 @@
 //
 
 #include <iostream>
+#include "GetPermutation.h"
 
 using namespace std;
 
 int main()
 {
-    
+    cout << getPermutation(8, 33856) << endl;
 
     return 0;
 }

@@ -159,6 +159,7 @@
     <ClCompile Include="FindMagicIndex.cpp" />
     <ClCompile Include="FloodFill.cpp" />
     <ClCompile Include="GenerateTrees.cpp" />
+    <ClCompile Include="GetPermutation.cpp" />
     <ClCompile Include="InorderTraversal.cpp" />
     <ClCompile Include="IntegerBreak.cpp" />
     <ClCompile Include="IsBalanced.cpp" />
@@ -209,6 +210,7 @@
     <ClInclude Include="FindMagicIndex.h" />
     <ClInclude Include="FloodFill.h" />
     <ClInclude Include="GenerateTrees.h" />
+    <ClInclude Include="GetPermutation.h" />
     <ClInclude Include="InorderTraversal.h" />
     <ClInclude Include="IntegerBreak.h" />
     <ClInclude Include="IsBalanced.h" />

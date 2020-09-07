@@ -1,2 +1,78 @@
-﻿  LeetCode.cpp
-  LeetCode.vcxproj -> F:\Game Development\github\LeetCode\c++\LeetCode\x64\Debug\LeetCode.exe
+﻿  AddStrings.cpp
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\AddStrings.cpp(25,31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\AddStrings.cpp(25,55): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  AddTwoNumbers.cpp
+  BinaryTreePaths.cpp
+  CanVisitAllRooms.cpp
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\CanVisitAllRooms.cpp(46,42): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  CanWinNim.cpp
+  CountBinarySubstrings.cpp
+  DivisorGame.cpp
+  FindDuplicate.cpp
+  FindItinerary.cpp
+  FindMagicIndex.cpp
+  FloodFill.cpp
+  GenerateTrees.cpp
+  GetPermutation.cpp
+  InorderTraversal.cpp
+  IntegerBreak.cpp
+  IsBalanced.cpp
+  IsSameTree.cpp
+  IsSubsequence.cpp
+  IsValid.cpp
+  KidsWithCandies.cpp
+  正在生成代码...
+  正在编译...
+  LeetCode.cpp
+  LengthOfLIS.cpp
+  LengthOfLongestSubstring.cpp
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\LengthOfLongestSubstring.cpp(37,40): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\LengthOfLongestSubstring.cpp(41,65): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\LengthOfLongestSubstring.cpp(47,40): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  LetterCasePermutation.cpp
+  LetterCombinations.cpp
+  LevelOrder.cpp
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\LevelOrder.cpp(57,29): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  LongestIncreasingPath.cpp
+  MaxDepth.cpp
+  MaxProduct.cpp
+  MaxProfit.cpp
+  MaxSubArray.cpp
+  Memcpy.cpp
+  MinArray.cpp
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\MinArray.cpp(31,45): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  MinDepth.cpp
+  MinPathSum.cpp
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\MinPathSum.cpp(27,26): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\MinPathSum.cpp(28,32): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Multiply.cpp
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\Multiply.cpp(31,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\Multiply.cpp(31,47): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\Multiply.cpp(62,37): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  PreorderTraversal.cpp
+  ReadBinaryWatch.cpp
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\ReadBinaryWatch.cpp(72,37): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\ReadBinaryWatch.cpp(75,35): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+  RemoveNthFromEnd.cpp
+  RepeatedSubstringPattern.cpp
+  正在生成代码...
+  正在编译...
+  ReverseWords.cpp
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\ReverseWords.cpp(37,32): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\ReverseWords.cpp(58,27): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\ReverseWords.cpp(68,30): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Rob.cpp
+  ShoppingOffers.cpp
+  SingleNumber.cpp
+  SolveNQueens.cpp
+  ThreeSum.cpp
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\ThreeSum.cpp(41,36): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  TwoSum.cpp
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\TwoSum.cpp(28,50): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\TwoSum.cpp(34,32): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  UpdateBoard.cpp
+  ValidPalindrome.cpp
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\ValidPalindrome.cpp(28,39): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  LINK : 没有找到 D:\Work\github\LeetCode\c++\LeetCode\x64\Debug\LeetCode.exe 或上一个增量链接没有生成它；正在执行完全链接
+  LeetCode.vcxproj -> D:\Work\github\LeetCode\c++\LeetCode\x64\Debug\LeetCode.exe
