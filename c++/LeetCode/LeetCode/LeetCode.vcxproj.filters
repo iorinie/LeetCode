@@ -204,6 +204,12 @@
     <ClCompile Include="GetPermutation.cpp">
       <Filter>源文件\Backtracking</Filter>
     </ClCompile>
+    <ClCompile Include="Combine.cpp">
+      <Filter>源文件\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildTree.cpp">
+      <Filter>源文件\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -349,6 +355,12 @@
     </ClInclude>
     <ClInclude Include="GetPermutation.h">
       <Filter>头文件\Backtracking</Filter>
+    </ClInclude>
+    <ClInclude Include="Combine.h">
+      <Filter>头文件\Backtracking</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildTree.h">
+      <Filter>头文件\Tree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

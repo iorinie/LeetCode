@@ -150,8 +150,10 @@
     <ClCompile Include="AddStrings.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="BinaryTreePaths.cpp" />
+    <ClCompile Include="BuildTree.cpp" />
     <ClCompile Include="CanVisitAllRooms.cpp" />
     <ClCompile Include="CanWinNim.cpp" />
+    <ClCompile Include="Combine.cpp" />
     <ClCompile Include="CountBinarySubstrings.cpp" />
     <ClCompile Include="DivisorGame.cpp" />
     <ClCompile Include="FindDuplicate.cpp" />
@@ -201,8 +203,10 @@
     <ClInclude Include="AddStrings.h" />
     <ClInclude Include="AddTwoNumbers.h" />
     <ClInclude Include="BinaryTreePaths.h" />
+    <ClInclude Include="BuildTree.h" />
     <ClInclude Include="CanVisitAllRooms.h" />
     <ClInclude Include="CanWinNim.h" />
+    <ClInclude Include="Combine.h" />
     <ClInclude Include="CountBinarySubstrings.h" />
     <ClInclude Include="DivisorGame.h" />
     <ClInclude Include="FindDuplicate.h" />

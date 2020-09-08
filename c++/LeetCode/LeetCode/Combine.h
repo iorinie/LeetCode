@@ -8,6 +8,6 @@ using namespace std;
 
 vector<vector<int>> combine(int n, int k);
 
-//void recurse(int n, int k, vector<vector<int>>& rslt, vector<int>& path, vector<int>& visited);
+void recurse(int n, int k, vector<vector<int>>& rslt, vector<int>& path, vector<int>& visited);
 
 #endif // !COMBINE_H
