@@ -1,3 +1,11 @@
 ﻿  BuildTree.cpp
-D:\Work\github\LeetCode\c++\LeetCode\LeetCode\BuildTree.cpp(32,23): warning C4018: “<”: 有符号/无符号不匹配
+  Exist.cpp
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\Exist.cpp(31,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\Exist.cpp(32,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\Exist.cpp(43,19): warning C4018: “>=”: 有符号/无符号不匹配
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\Exist.cpp(47,26): warning C4018: “>=”: 有符号/无符号不匹配
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\Exist.cpp(47,62): warning C4018: “>=”: 有符号/无符号不匹配
+  LeetCode.cpp
+  MovingCount.cpp
+  正在生成代码...
   LeetCode.vcxproj -> D:\Work\github\LeetCode\c++\LeetCode\Debug\LeetCode.exe

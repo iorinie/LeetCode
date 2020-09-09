@@ -156,6 +156,7 @@
     <ClCompile Include="Combine.cpp" />
     <ClCompile Include="CountBinarySubstrings.cpp" />
     <ClCompile Include="DivisorGame.cpp" />
+    <ClCompile Include="Exist.cpp" />
     <ClCompile Include="FindDuplicate.cpp" />
     <ClCompile Include="FindItinerary.cpp" />
     <ClCompile Include="FindMagicIndex.cpp" />
@@ -184,6 +185,7 @@
     <ClCompile Include="MinArray.cpp" />
     <ClCompile Include="MinDepth.cpp" />
     <ClCompile Include="MinPathSum.cpp" />
+    <ClCompile Include="MovingCount.cpp" />
     <ClCompile Include="Multiply.cpp" />
     <ClCompile Include="PreorderTraversal.cpp" />
     <ClCompile Include="ReadBinaryWatch.cpp" />
@@ -209,6 +211,7 @@
     <ClInclude Include="Combine.h" />
     <ClInclude Include="CountBinarySubstrings.h" />
     <ClInclude Include="DivisorGame.h" />
+    <ClInclude Include="Exist.h" />
     <ClInclude Include="FindDuplicate.h" />
     <ClInclude Include="FindItinerary.h" />
     <ClInclude Include="FindMagicIndex.h" />
@@ -236,6 +239,7 @@
     <ClInclude Include="MinArray.h" />
     <ClInclude Include="MinDepth.h" />
     <ClInclude Include="MinPathSum.h" />
+    <ClInclude Include="MovingCount.h" />
     <ClInclude Include="Multiply.h" />
     <ClInclude Include="PreorderTraversal.h" />
     <ClInclude Include="ReadBinaryWatch.h" />
