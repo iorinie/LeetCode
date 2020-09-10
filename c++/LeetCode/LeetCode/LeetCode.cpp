@@ -2,13 +2,21 @@
 //
 
 #include <iostream>
-
+#include "ValidateStackSequences.h"
 
 using namespace std;
 
 int main()
 {
-    
+    /*vector<int> pushed = { 1,2,3,4,5 };
+    vector<int> popped = { 4,5,3,2,1 };*/
+    /*vector<int> pushed = { 1,2,3,4,5 };
+    vector<int> popped = { 4,3,5,1,2 };*/
+    /*vector<int> pushed = { 1,0 };
+    vector<int> popped = { 1,0 };*/
+    vector<int> pushed = { 8,9,2,3,7,0,5,4,6,1 };
+    vector<int> popped = { 6,8,2,1,3,9,0,7,4,5 };
+    cout << validateStackSequences(pushed, popped) << endl;
 
     return 0;
 }

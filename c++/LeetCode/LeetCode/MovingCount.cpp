@@ -1,7 +1,4 @@
 #include "MovingCount.h"
-#include <vector>
-
-using namespace std;
 
 /*
     ÌâÄ¿ÃèÊö£º

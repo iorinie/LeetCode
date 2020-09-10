@@ -216,6 +216,15 @@
     <ClCompile Include="MovingCount.cpp">
       <Filter>源文件\Backtracking</Filter>
     </ClCompile>
+    <ClCompile Include="CuttingRope.cpp">
+      <Filter>源文件\DynamicPlanning</Filter>
+    </ClCompile>
+    <ClCompile Include="IsSubStructure.cpp">
+      <Filter>源文件\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidateStackSequences.cpp">
+      <Filter>源文件\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -373,6 +382,15 @@
     </ClInclude>
     <ClInclude Include="MovingCount.h">
       <Filter>头文件\Backtracking</Filter>
+    </ClInclude>
+    <ClInclude Include="CuttingRope.h">
+      <Filter>头文件\DynamicPlanning</Filter>
+    </ClInclude>
+    <ClInclude Include="IsSubStructure.h">
+      <Filter>头文件\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="ValidateStackSequences.h">
+      <Filter>头文件\Array</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

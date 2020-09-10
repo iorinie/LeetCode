@@ -1,3 +1,7 @@
+#include <vector>
+
+using namespace std;
+
 #ifndef MOVINGCOUNT_H
 
 #define MOVINGCOUNT_H

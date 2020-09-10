@@ -155,6 +155,7 @@
     <ClCompile Include="CanWinNim.cpp" />
     <ClCompile Include="Combine.cpp" />
     <ClCompile Include="CountBinarySubstrings.cpp" />
+    <ClCompile Include="CuttingRope.cpp" />
     <ClCompile Include="DivisorGame.cpp" />
     <ClCompile Include="Exist.cpp" />
     <ClCompile Include="FindDuplicate.cpp" />
@@ -168,6 +169,7 @@
     <ClCompile Include="IsBalanced.cpp" />
     <ClCompile Include="IsSameTree.cpp" />
     <ClCompile Include="IsSubsequence.cpp" />
+    <ClCompile Include="IsSubStructure.cpp" />
     <ClCompile Include="IsValid.cpp" />
     <ClCompile Include="KidsWithCandies.cpp" />
     <ClCompile Include="LeetCode.cpp" />
@@ -199,6 +201,7 @@
     <ClCompile Include="ThreeSum.cpp" />
     <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="UpdateBoard.cpp" />
+    <ClCompile Include="ValidateStackSequences.cpp" />
     <ClCompile Include="ValidPalindrome.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -210,6 +213,7 @@
     <ClInclude Include="CanWinNim.h" />
     <ClInclude Include="Combine.h" />
     <ClInclude Include="CountBinarySubstrings.h" />
+    <ClInclude Include="CuttingRope.h" />
     <ClInclude Include="DivisorGame.h" />
     <ClInclude Include="Exist.h" />
     <ClInclude Include="FindDuplicate.h" />
@@ -223,6 +227,7 @@
     <ClInclude Include="IsBalanced.h" />
     <ClInclude Include="IsSameTree.h" />
     <ClInclude Include="IsSubsequence.h" />
+    <ClInclude Include="IsSubStructure.h" />
     <ClInclude Include="IsValid.h" />
     <ClInclude Include="KidsWithCandies.h" />
     <ClInclude Include="LengthOfLIS.h" />
@@ -253,6 +258,7 @@
     <ClInclude Include="ThreeSum.h" />
     <ClInclude Include="TwoSum.h" />
     <ClInclude Include="UpdateBoard.h" />
+    <ClInclude Include="ValidateStackSequences.h" />
     <ClInclude Include="ValidPalindrome.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
