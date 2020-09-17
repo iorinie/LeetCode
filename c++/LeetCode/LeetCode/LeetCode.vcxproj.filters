@@ -225,6 +225,12 @@
     <ClCompile Include="ValidateStackSequences.cpp">
       <Filter>源文件\Array</Filter>
     </ClCompile>
+    <ClCompile Include="VerifyPostorder.cpp">
+      <Filter>源文件\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="PathSum.cpp">
+      <Filter>源文件\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -391,6 +397,12 @@
     </ClInclude>
     <ClInclude Include="ValidateStackSequences.h">
       <Filter>头文件\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="VerifyPostorder.h">
+      <Filter>头文件\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="PathSum.h">
+      <Filter>头文件\Tree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -15,6 +15,6 @@ struct TreeNode {
 
 vector<int> inorderTraversal(TreeNode* root);
 
-void traversal(TreeNode* node, vector<int>& rslt);
+//void traversal(TreeNode* node, vector<int>& rslt);
 
 #endif

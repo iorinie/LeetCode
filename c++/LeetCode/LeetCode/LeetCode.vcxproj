@@ -189,6 +189,7 @@
     <ClCompile Include="MinPathSum.cpp" />
     <ClCompile Include="MovingCount.cpp" />
     <ClCompile Include="Multiply.cpp" />
+    <ClCompile Include="PathSum.cpp" />
     <ClCompile Include="PreorderTraversal.cpp" />
     <ClCompile Include="ReadBinaryWatch.cpp" />
     <ClCompile Include="RemoveNthFromEnd.cpp" />
@@ -203,6 +204,7 @@
     <ClCompile Include="UpdateBoard.cpp" />
     <ClCompile Include="ValidateStackSequences.cpp" />
     <ClCompile Include="ValidPalindrome.cpp" />
+    <ClCompile Include="VerifyPostorder.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AddStrings.h" />
@@ -246,6 +248,7 @@
     <ClInclude Include="MinPathSum.h" />
     <ClInclude Include="MovingCount.h" />
     <ClInclude Include="Multiply.h" />
+    <ClInclude Include="PathSum.h" />
     <ClInclude Include="PreorderTraversal.h" />
     <ClInclude Include="ReadBinaryWatch.h" />
     <ClInclude Include="RemoveNthFormEnd.h" />
@@ -260,6 +263,7 @@
     <ClInclude Include="UpdateBoard.h" />
     <ClInclude Include="ValidateStackSequences.h" />
     <ClInclude Include="ValidPalindrome.h" />
+    <ClInclude Include="VerifyPostorder.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
