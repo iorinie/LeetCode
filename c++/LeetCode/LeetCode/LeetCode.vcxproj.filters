@@ -231,6 +231,9 @@
     <ClCompile Include="PathSum.cpp">
       <Filter>源文件\Tree</Filter>
     </ClCompile>
+    <ClCompile Include="BuildTreeII.cpp">
+      <Filter>源文件\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -402,6 +405,9 @@
       <Filter>头文件\Tree</Filter>
     </ClInclude>
     <ClInclude Include="PathSum.h">
+      <Filter>头文件\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildTreeII.h">
       <Filter>头文件\Tree</Filter>
     </ClInclude>
   </ItemGroup>

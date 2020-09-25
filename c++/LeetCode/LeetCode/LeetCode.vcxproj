@@ -151,6 +151,7 @@
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="BinaryTreePaths.cpp" />
     <ClCompile Include="BuildTree.cpp" />
+    <ClCompile Include="BuildTreeII.cpp" />
     <ClCompile Include="CanVisitAllRooms.cpp" />
     <ClCompile Include="CanWinNim.cpp" />
     <ClCompile Include="Combine.cpp" />
@@ -211,6 +212,7 @@
     <ClInclude Include="AddTwoNumbers.h" />
     <ClInclude Include="BinaryTreePaths.h" />
     <ClInclude Include="BuildTree.h" />
+    <ClInclude Include="BuildTreeII.h" />
     <ClInclude Include="CanVisitAllRooms.h" />
     <ClInclude Include="CanWinNim.h" />
     <ClInclude Include="Combine.h" />
