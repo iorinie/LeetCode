@@ -2,15 +2,12 @@
 //
 
 #include <iostream>
-#include "BuildTreeII.h"
+
 
 using namespace std;
 
 int main()
 {
-    vector<int> inorder = { 9,3,15,20,7 };
-    vector<int> postorder = { 9,15,7,20,3 };
-    buildTreeII(inorder, postorder);
 
     return 0;
 }
