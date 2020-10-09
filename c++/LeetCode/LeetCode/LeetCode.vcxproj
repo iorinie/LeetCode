@@ -162,6 +162,7 @@
     <ClCompile Include="FindDuplicate.cpp" />
     <ClCompile Include="FindItinerary.cpp" />
     <ClCompile Include="FindMagicIndex.cpp" />
+    <ClCompile Include="FindMode.cpp" />
     <ClCompile Include="FloodFill.cpp" />
     <ClCompile Include="GenerateTrees.cpp" />
     <ClCompile Include="GetPermutation.cpp" />
@@ -223,6 +224,7 @@
     <ClInclude Include="FindDuplicate.h" />
     <ClInclude Include="FindItinerary.h" />
     <ClInclude Include="FindMagicIndex.h" />
+    <ClInclude Include="FindMode.h" />
     <ClInclude Include="FloodFill.h" />
     <ClInclude Include="GenerateTrees.h" />
     <ClInclude Include="GetPermutation.h" />

@@ -234,6 +234,9 @@
     <ClCompile Include="BuildTreeII.cpp">
       <Filter>源文件\Tree</Filter>
     </ClCompile>
+    <ClCompile Include="FindMode.cpp">
+      <Filter>源文件\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -408,6 +411,9 @@
       <Filter>头文件\Tree</Filter>
     </ClInclude>
     <ClInclude Include="BuildTreeII.h">
+      <Filter>头文件\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="FindMode.h">
       <Filter>头文件\Tree</Filter>
     </ClInclude>
   </ItemGroup>
