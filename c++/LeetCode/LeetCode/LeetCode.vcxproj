@@ -152,6 +152,7 @@
     <ClCompile Include="BinaryTreePaths.cpp" />
     <ClCompile Include="BuildTree.cpp" />
     <ClCompile Include="BuildTreeII.cpp" />
+    <ClCompile Include="CanPartition.cpp" />
     <ClCompile Include="CanVisitAllRooms.cpp" />
     <ClCompile Include="CanWinNim.cpp" />
     <ClCompile Include="Combine.cpp" />
@@ -196,6 +197,7 @@
     <ClCompile Include="ReadBinaryWatch.cpp" />
     <ClCompile Include="RemoveNthFromEnd.cpp" />
     <ClCompile Include="RepeatedSubstringPattern.cpp" />
+    <ClCompile Include="ReverseString.cpp" />
     <ClCompile Include="ReverseWords.cpp" />
     <ClCompile Include="Rob.cpp" />
     <ClCompile Include="ShoppingOffers.cpp" />
@@ -214,6 +216,7 @@
     <ClInclude Include="BinaryTreePaths.h" />
     <ClInclude Include="BuildTree.h" />
     <ClInclude Include="BuildTreeII.h" />
+    <ClInclude Include="CanPartition.h" />
     <ClInclude Include="CanVisitAllRooms.h" />
     <ClInclude Include="CanWinNim.h" />
     <ClInclude Include="Combine.h" />
@@ -257,6 +260,7 @@
     <ClInclude Include="ReadBinaryWatch.h" />
     <ClInclude Include="RemoveNthFormEnd.h" />
     <ClInclude Include="RepeatedSubstringPattern.h" />
+    <ClInclude Include="ReverseString.h" />
     <ClInclude Include="ReverseWords.h" />
     <ClInclude Include="Rob.h" />
     <ClInclude Include="ShoppingOffers.h" />

@@ -237,6 +237,12 @@
     <ClCompile Include="FindMode.cpp">
       <Filter>源文件\Tree</Filter>
     </ClCompile>
+    <ClCompile Include="ReverseString.cpp">
+      <Filter>源文件\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="CanPartition.cpp">
+      <Filter>源文件\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -415,6 +421,12 @@
     </ClInclude>
     <ClInclude Include="FindMode.h">
       <Filter>头文件\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseString.h">
+      <Filter>头文件\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="CanPartition.h">
+      <Filter>头文件\Array</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
