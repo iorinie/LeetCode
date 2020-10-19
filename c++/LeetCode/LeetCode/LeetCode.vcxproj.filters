@@ -243,6 +243,9 @@
     <ClCompile Include="CanPartition.cpp">
       <Filter>源文件\Array</Filter>
     </ClCompile>
+    <ClCompile Include="Connect.cpp">
+      <Filter>源文件\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -427,6 +430,9 @@
     </ClInclude>
     <ClInclude Include="CanPartition.h">
       <Filter>头文件\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Connect.h">
+      <Filter>头文件\Tree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

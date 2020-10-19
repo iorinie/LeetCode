@@ -156,6 +156,7 @@
     <ClCompile Include="CanVisitAllRooms.cpp" />
     <ClCompile Include="CanWinNim.cpp" />
     <ClCompile Include="Combine.cpp" />
+    <ClCompile Include="Connect.cpp" />
     <ClCompile Include="CountBinarySubstrings.cpp" />
     <ClCompile Include="CuttingRope.cpp" />
     <ClCompile Include="DivisorGame.cpp" />
@@ -220,6 +221,7 @@
     <ClInclude Include="CanVisitAllRooms.h" />
     <ClInclude Include="CanWinNim.h" />
     <ClInclude Include="Combine.h" />
+    <ClInclude Include="Connect.h" />
     <ClInclude Include="CountBinarySubstrings.h" />
     <ClInclude Include="CuttingRope.h" />
     <ClInclude Include="DivisorGame.h" />
