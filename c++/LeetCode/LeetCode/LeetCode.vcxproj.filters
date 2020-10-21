@@ -246,6 +246,12 @@
     <ClCompile Include="Connect.cpp">
       <Filter>源文件\Tree</Filter>
     </ClCompile>
+    <ClCompile Include="BackspaceCompare.cpp">
+      <Filter>源文件\String</Filter>
+    </ClCompile>
+    <ClCompile Include="ReorderList.cpp">
+      <Filter>源文件\List</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -433,6 +439,12 @@
     </ClInclude>
     <ClInclude Include="Connect.h">
       <Filter>头文件\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="BackspaceCompare.h">
+      <Filter>头文件\String</Filter>
+    </ClInclude>
+    <ClInclude Include="ReorderList.h">
+      <Filter>头文件\List</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

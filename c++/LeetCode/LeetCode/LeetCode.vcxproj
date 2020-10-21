@@ -149,6 +149,7 @@
   <ItemGroup>
     <ClCompile Include="AddStrings.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
+    <ClCompile Include="BackspaceCompare.cpp" />
     <ClCompile Include="BinaryTreePaths.cpp" />
     <ClCompile Include="BuildTree.cpp" />
     <ClCompile Include="BuildTreeII.cpp" />
@@ -197,6 +198,7 @@
     <ClCompile Include="PreorderTraversal.cpp" />
     <ClCompile Include="ReadBinaryWatch.cpp" />
     <ClCompile Include="RemoveNthFromEnd.cpp" />
+    <ClCompile Include="ReorderList.cpp" />
     <ClCompile Include="RepeatedSubstringPattern.cpp" />
     <ClCompile Include="ReverseString.cpp" />
     <ClCompile Include="ReverseWords.cpp" />
@@ -214,6 +216,7 @@
   <ItemGroup>
     <ClInclude Include="AddStrings.h" />
     <ClInclude Include="AddTwoNumbers.h" />
+    <ClInclude Include="BackspaceCompare.h" />
     <ClInclude Include="BinaryTreePaths.h" />
     <ClInclude Include="BuildTree.h" />
     <ClInclude Include="BuildTreeII.h" />
@@ -261,6 +264,7 @@
     <ClInclude Include="PreorderTraversal.h" />
     <ClInclude Include="ReadBinaryWatch.h" />
     <ClInclude Include="RemoveNthFormEnd.h" />
+    <ClInclude Include="ReorderList.h" />
     <ClInclude Include="RepeatedSubstringPattern.h" />
     <ClInclude Include="ReverseString.h" />
     <ClInclude Include="ReverseWords.h" />

@@ -26,7 +26,7 @@
         1.
 */
 bool canPartition(vector<int>& nums) {
-
+    return true;
 }
 
 /*
