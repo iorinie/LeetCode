@@ -252,6 +252,9 @@
     <ClCompile Include="ReorderList.cpp">
       <Filter>源文件\List</Filter>
     </ClCompile>
+    <ClCompile Include="PartitionLabels.cpp">
+      <Filter>源文件\String</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -445,6 +448,9 @@
     </ClInclude>
     <ClInclude Include="ReorderList.h">
       <Filter>头文件\List</Filter>
+    </ClInclude>
+    <ClInclude Include="PartitionLabels.h">
+      <Filter>头文件\String</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

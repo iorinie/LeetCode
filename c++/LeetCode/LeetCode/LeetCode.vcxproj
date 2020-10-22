@@ -194,6 +194,7 @@
     <ClCompile Include="MinPathSum.cpp" />
     <ClCompile Include="MovingCount.cpp" />
     <ClCompile Include="Multiply.cpp" />
+    <ClCompile Include="PartitionLabels.cpp" />
     <ClCompile Include="PathSum.cpp" />
     <ClCompile Include="PreorderTraversal.cpp" />
     <ClCompile Include="ReadBinaryWatch.cpp" />
@@ -260,6 +261,7 @@
     <ClInclude Include="MinPathSum.h" />
     <ClInclude Include="MovingCount.h" />
     <ClInclude Include="Multiply.h" />
+    <ClInclude Include="PartitionLabels.h" />
     <ClInclude Include="PathSum.h" />
     <ClInclude Include="PreorderTraversal.h" />
     <ClInclude Include="ReadBinaryWatch.h" />
