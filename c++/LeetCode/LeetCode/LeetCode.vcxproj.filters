@@ -255,6 +255,9 @@
     <ClCompile Include="PartitionLabels.cpp">
       <Filter>源文件\String</Filter>
     </ClCompile>
+    <ClCompile Include="IsPalindrome.cpp">
+      <Filter>源文件\List</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -451,6 +454,9 @@
     </ClInclude>
     <ClInclude Include="PartitionLabels.h">
       <Filter>头文件\String</Filter>
+    </ClInclude>
+    <ClInclude Include="IsPalindrome.h">
+      <Filter>头文件\List</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

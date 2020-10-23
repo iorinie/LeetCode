@@ -172,6 +172,7 @@
     <ClCompile Include="InorderTraversal.cpp" />
     <ClCompile Include="IntegerBreak.cpp" />
     <ClCompile Include="IsBalanced.cpp" />
+    <ClCompile Include="IsPalindrome.cpp" />
     <ClCompile Include="IsSameTree.cpp" />
     <ClCompile Include="IsSubsequence.cpp" />
     <ClCompile Include="IsSubStructure.cpp" />
@@ -240,6 +241,7 @@
     <ClInclude Include="InorderTraversal.h" />
     <ClInclude Include="IntegerBreak.h" />
     <ClInclude Include="IsBalanced.h" />
+    <ClInclude Include="IsPalindrome.h" />
     <ClInclude Include="IsSameTree.h" />
     <ClInclude Include="IsSubsequence.h" />
     <ClInclude Include="IsSubStructure.h" />
