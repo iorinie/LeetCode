@@ -20,14 +20,77 @@
         解释：数组不能分割成两个元素和相等的子集
 */
 /*
-    解法2：背包问题，动态规划
-    缺点：
+    解法2：转换为背包问题，动态规划
+    缺点：每一行的状态只和上一层有关，可以不用二维数组保存dp
     知识点：
         1.
 */
 bool canPartition(vector<int>& nums) {
-    return true;
+    int nLen = nums.size();
+    if (nLen <= 1) return false;
+
+    int sum = 0;
+    int maxSub = 0;
+    for (int i = 0; i < nLen; i++) {
+        sum += nums[i];
+        if (nums[i] > maxSub) maxSub = nums[i];
+    }
+    if (sum & 1) return false;
+    int target = sum / 2;
+    if (maxSub > target) return false;
+
+    vector<vector<bool>> dp(nLen, vector<bool>(target + 1, true));
+    for (int j = 1; j <= target; j++) {
+        dp[0][j] = nums[0] == j;
+    }
+    for (int i = 1; i < nLen; i++) {
+        for (int j = 1; j <= target; j++) {
+            if (nums[i] > j) {
+                dp[i][j] = dp[i - 1][j];
+            }
+            else {
+                dp[i][j] = dp[i - 1][j] || dp[i - 1][j - nums[i]];
+            }
+        }
+    }
+
+    return dp[nLen - 1][target];
 }
+
+/*
+    解法3：转换为背包问题，动态规划，解法2优化版
+    缺点：
+    知识点：
+        1.
+*/
+//bool canPartition(vector<int>& nums) {
+//    int nLen = nums.size();
+//    if (nLen <= 1) return false;
+//
+//    int sum = 0;
+//    int maxSub = 0;
+//    for (int i = 0; i < nLen; i++) {
+//        sum += nums[i];
+//        if (nums[i] > maxSub) maxSub = nums[i];
+//    }
+//    if (sum & 1) return false;
+//    int target = sum / 2;
+//    if (maxSub > target) return false;
+//
+//    vector<bool> dp(target + 1, true);
+//    for (int j = 1; j <= target; j++) {
+//        dp[j] = nums[0] == j;
+//    }
+//    for (int i = 1; i < nLen; i++) {
+//        for (int j = target; j > 0; j--) {
+//            if (nums[i] <= j) {
+//                dp[j] = dp[j] || dp[j - nums[i]];
+//            }
+//        }
+//    }
+//
+//    return dp[target];
+//}
 
 /*
     解法1：全排列比较总和的一半

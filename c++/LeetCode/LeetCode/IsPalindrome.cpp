@@ -77,14 +77,14 @@ bool isPalindrome(ListNode* head) {
     知识点：
         1. 回文链表从头往尾或从尾往头生成的数字是一样的
 */
-bool isPalindrome(ListNode* head) {
-    unsigned long listToNum = 0, revListToNum = 0, carry = 1;
-    while (head) {
-        listToNum = listToNum * 10 + head->val;
-        revListToNum = revListToNum + carry * head->val;
-        carry *= 10;
-        head = head->next;
-    }
-
-    return listToNum == revListToNum;
-}
+//bool isPalindrome(ListNode* head) {
+//    unsigned long listToNum = 0, revListToNum = 0, carry = 1;
+//    while (head) {
+//        listToNum = listToNum * 10 + head->val;
+//        revListToNum = revListToNum + carry * head->val;
+//        carry *= 10;
+//        head = head->next;
+//    }
+//
+//    return listToNum == revListToNum;
+//}

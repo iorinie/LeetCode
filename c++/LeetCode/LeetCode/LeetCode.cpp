@@ -2,22 +2,13 @@
 //
 
 #include <iostream>
-#include "CanPartition.h"
-#include "IsPalindrome.h"
+
 
 using namespace std;
 
 int main()
 {
-    vector<int> nums = { 1, 5, 11, 5 };
-    cout << canPartition(nums) << endl;
-
-    ListNode* head = new ListNode(1);
-    ListNode* n2 = new ListNode(2);
-    ListNode* n3 = new ListNode(1);
-    head->next = n2;
-    n2->next = n3;
-    cout << isPalindrome(head) << endl;
+    
 
     return 0;
 }
