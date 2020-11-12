@@ -2,13 +2,21 @@
 //
 
 #include <iostream>
-
+#include "FindRotateSteps.h"
+#include "SortArrayByParityII.h"
 
 using namespace std;
 
 int main()
 {
-    
+    //string s1 = "caotmcaataijjxi";
+    //string s2 = "oatjiioicitatajtijciocjcaaxaaatmctxamacaamjjx";
+    ///*s1 = "godding";
+    //s2 = "gd";*/
+    //cout << findRotateSteps(s1, s2) << endl;
+
+    vector<int> arr = { 4,2,5,7 };
+    sortArrayByParityII(arr);
 
     return 0;
 }

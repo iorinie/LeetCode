@@ -166,6 +166,7 @@
     <ClCompile Include="FindItinerary.cpp" />
     <ClCompile Include="FindMagicIndex.cpp" />
     <ClCompile Include="FindMode.cpp" />
+    <ClCompile Include="FindRotateSteps.cpp" />
     <ClCompile Include="FloodFill.cpp" />
     <ClCompile Include="GenerateTrees.cpp" />
     <ClCompile Include="GetPermutation.cpp" />
@@ -197,6 +198,7 @@
     <ClCompile Include="Multiply.cpp" />
     <ClCompile Include="PartitionLabels.cpp" />
     <ClCompile Include="PathSum.cpp" />
+    <ClCompile Include="PostorderTraversal.cpp" />
     <ClCompile Include="PreorderTraversal.cpp" />
     <ClCompile Include="ReadBinaryWatch.cpp" />
     <ClCompile Include="RemoveNthFromEnd.cpp" />
@@ -208,6 +210,7 @@
     <ClCompile Include="ShoppingOffers.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="SolveNQueens.cpp" />
+    <ClCompile Include="SortArrayByParityII.cpp" />
     <ClCompile Include="ThreeSum.cpp" />
     <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="UpdateBoard.cpp" />
@@ -235,6 +238,7 @@
     <ClInclude Include="FindItinerary.h" />
     <ClInclude Include="FindMagicIndex.h" />
     <ClInclude Include="FindMode.h" />
+    <ClInclude Include="FindRotateSteps.h" />
     <ClInclude Include="FloodFill.h" />
     <ClInclude Include="GenerateTrees.h" />
     <ClInclude Include="GetPermutation.h" />
@@ -265,6 +269,7 @@
     <ClInclude Include="Multiply.h" />
     <ClInclude Include="PartitionLabels.h" />
     <ClInclude Include="PathSum.h" />
+    <ClInclude Include="Postordertraversal.h" />
     <ClInclude Include="PreorderTraversal.h" />
     <ClInclude Include="ReadBinaryWatch.h" />
     <ClInclude Include="RemoveNthFormEnd.h" />
@@ -276,6 +281,7 @@
     <ClInclude Include="ShoppingOffers.h" />
     <ClInclude Include="SingleNumber.h" />
     <ClInclude Include="SolveNQueens.h" />
+    <ClInclude Include="SortArrayByParityII.h" />
     <ClInclude Include="ThreeSum.h" />
     <ClInclude Include="TwoSum.h" />
     <ClInclude Include="UpdateBoard.h" />

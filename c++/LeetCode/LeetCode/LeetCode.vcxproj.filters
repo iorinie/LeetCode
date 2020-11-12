@@ -258,6 +258,15 @@
     <ClCompile Include="IsPalindrome.cpp">
       <Filter>源文件\List</Filter>
     </ClCompile>
+    <ClCompile Include="PostorderTraversal.cpp">
+      <Filter>源文件\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="FindRotateSteps.cpp">
+      <Filter>源文件\String</Filter>
+    </ClCompile>
+    <ClCompile Include="SortArrayByParityII.cpp">
+      <Filter>源文件\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -457,6 +466,15 @@
     </ClInclude>
     <ClInclude Include="IsPalindrome.h">
       <Filter>头文件\List</Filter>
+    </ClInclude>
+    <ClInclude Include="Postordertraversal.h">
+      <Filter>头文件\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="FindRotateSteps.h">
+      <Filter>头文件\String</Filter>
+    </ClInclude>
+    <ClInclude Include="SortArrayByParityII.h">
+      <Filter>头文件\Array</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
