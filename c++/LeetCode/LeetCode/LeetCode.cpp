@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include "FindRotateSteps.h"
-#include "SortArrayByParityII.h"
+#include "InsertionSortList.h"
 
 using namespace std;
 
@@ -15,8 +15,10 @@ int main()
     //s2 = "gd";*/
     //cout << findRotateSteps(s1, s2) << endl;
 
-    vector<int> arr = { 4,2,5,7 };
-    sortArrayByParityII(arr);
+    vector<int> v = { 4,2,1,3 };
+    v = { 3,2,4 };
+    ListNode* head = createList(v);
+    insertionSortList(head);
 
     return 0;
 }

@@ -217,6 +217,7 @@
     <ClCompile Include="ValidateStackSequences.cpp" />
     <ClCompile Include="ValidPalindrome.cpp" />
     <ClCompile Include="VerifyPostorder.cpp" />
+    <ClCompile Include="InsertionSortList.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AddStrings.h" />
@@ -243,6 +244,7 @@
     <ClInclude Include="GenerateTrees.h" />
     <ClInclude Include="GetPermutation.h" />
     <ClInclude Include="InorderTraversal.h" />
+    <ClInclude Include="InsertionSortList.h" />
     <ClInclude Include="IntegerBreak.h" />
     <ClInclude Include="IsBalanced.h" />
     <ClInclude Include="IsPalindrome.h" />

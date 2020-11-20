@@ -1,10 +1,5 @@
-﻿  FindRotateSteps.cpp
-D:\Work\github\LeetCode\c++\LeetCode\LeetCode\FindRotateSteps.cpp(78,22): warning C4018: “>”: 有符号/无符号不匹配
-D:\Work\github\LeetCode\c++\LeetCode\LeetCode\FindRotateSteps.cpp(87,23): warning C4018: “>”: 有符号/无符号不匹配
-D:\Work\github\LeetCode\c++\LeetCode\LeetCode\FindRotateSteps.cpp(92,22): warning C4018: “>=”: 有符号/无符号不匹配
+﻿  InsertionSortList.cpp
+D:\Work\github\LeetCode\c++\LeetCode\LeetCode\InsertionSortList.cpp(69,23): warning C4018: “<”: 有符号/无符号不匹配
   LeetCode.cpp
-  SortArrayByParityII.cpp
-D:\Work\github\LeetCode\c++\LeetCode\LeetCode\SortArrayByParityII.cpp(28,21): warning C4018: “<”: 有符号/无符号不匹配
-D:\Work\github\LeetCode\c++\LeetCode\LeetCode\SortArrayByParityII.cpp(29,18): warning C4018: “>=”: 有符号/无符号不匹配
   正在生成代码...
   LeetCode.vcxproj -> D:\Work\github\LeetCode\c++\LeetCode\Debug\LeetCode.exe

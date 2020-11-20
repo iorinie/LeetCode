@@ -267,6 +267,9 @@
     <ClCompile Include="SortArrayByParityII.cpp">
       <Filter>源文件\Array</Filter>
     </ClCompile>
+    <ClCompile Include="InsertionSortList.cpp">
+      <Filter>源文件\List</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LevelOrder.h">
@@ -475,6 +478,9 @@
     </ClInclude>
     <ClInclude Include="SortArrayByParityII.h">
       <Filter>头文件\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertionSortList.h">
+      <Filter>头文件\List</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
